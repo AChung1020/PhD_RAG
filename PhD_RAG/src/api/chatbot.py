@@ -1,7 +1,12 @@
-from fastapi import APIRouter, HTTPException
+import os
+import aiohttp
+from fastapi import APIRouter, HTTPException, FastAPI
 from PhD_RAG.src.models import ChatRequest, ChatResponse
 
 router = APIRouter()
+
+CLAUDE_API_KEY = os.getenv("CLAUD_API_KEY")
+CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 
 @router.post("/chat", response_model=ChatResponse)
 async def get_response(request: ChatRequest):
@@ -15,5 +20,26 @@ async def get_response(request: ChatRequest):
     response = process_query(query)
     return ChatResponse(answer=response)
 
-def process_query(query):
+async def process_query(query: str):
+    headers = {
+        'x-api-key': CLAUDE_API_KEY,
+        'Content-Type': 'application/json',
+        'anthropic-version': '2023-06-01',
+    }
+
+    payload = {
+        'model': 'claude-3-5-sonnet-20241022',
+        'max_tokens':300,
+        'messages': [
+            {'role':'user', 'content':query}
+        ],
+    }
+
+
     return "This is a placeholder response."
+
+
+def init_app(app: FastAPI) -> None:
+    app.include_router(
+        router, prefix="/api/v1", tags=["chatbot"],
+    )
