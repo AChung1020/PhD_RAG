@@ -55,8 +55,18 @@ class StellaEmbeddings(Embeddings):
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         """Embed a list of documents using batching"""
-        batch_size = 32  # Adjust based on your GPU memory
+        batch_size = 4  # Adjust based on your GPU memory
         all_embeddings = []
+
+        # Set model to eval mode
+        self.model.eval()
+
+        # Set deterministic behavior
+        torch.manual_seed(42)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(42)
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
 
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
@@ -89,5 +99,7 @@ class StellaEmbeddings(Embeddings):
         return all_embeddings
 
     def embed_query(self, text: str) -> List[float]:
-        """Embed a single piece of text"""
-        return self.embed_documents([text])[0]
+        """Embed a query with the instruction prompt"""
+        query_prompt = "Instruct: Given a web search query, retrieve relevant passages that answer the query.\nQuery: "
+        print(self.embed_documents([query_prompt + text])[0])
+        return self.embed_documents([query_prompt + text])[0]
