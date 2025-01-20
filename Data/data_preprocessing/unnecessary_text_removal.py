@@ -37,5 +37,5 @@ def remove_page_numbers(input_file, output_file):
 # Example usage
 if __name__ == "__main__":
     input_file = "/Users/andrewchung/PycharmProjects/PhD_RAG/Data/MD_handbooks/laney-graduate-studies-handbook.md"
-    output_file = "/Users/andrewchung/PycharmProjects/PhD_RAG/Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md"
+    output_file = "/Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md"
     remove_page_numbers(input_file, output_file)
