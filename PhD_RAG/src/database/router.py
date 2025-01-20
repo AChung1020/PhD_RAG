@@ -4,15 +4,16 @@ from logging import getLogger
 from langchain_milvus import Milvus
 from collections import defaultdict
 import tiktoken
+from tiktoken import Encoding
 from uuid import uuid4
 
-from PhD_RAG.src.database.utils import chunk_documents
-from PhD_RAG.src.database.core import setup_vectorstore
+from PhD_RAG.src.database.services import chunk_documents
+from PhD_RAG.src.database.services import setup_vectorstore
 from langchain_core.documents import Document
 from PhD_RAG.src.config import MILVUS_CONFIG, MODEL_CONFIG
 from PhD_RAG.src.database.embedding_model_client import StellaEmbeddings
 from pymilvus import connections, utility
-
+from langchain_core.vectorstores import VectorStoreRetriever
 
 router: APIRouter = APIRouter()
 logger = getLogger(__name__)
@@ -22,7 +23,8 @@ logger = getLogger(__name__)
 async def create_vectorstore():
     logger.info("Creating vectorstore...")
 
-    document_paths = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md', 'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
+    document_paths = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
+                      'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
 
     chunked_docs: list[Document] = []
     # Process each document path
@@ -61,32 +63,32 @@ async def delete_vectorstore():
         # Clean up connection
         connections.disconnect("default")
 
+
 @router.post("/query_results")
 async def query_results(query: str):
-    embeddings = StellaEmbeddings(MODEL_CONFIG['name'])
-    vector_store = Milvus(
+    embeddings: StellaEmbeddings = StellaEmbeddings(MODEL_CONFIG['name'])
+    vector_store: Milvus = Milvus(
         connection_args={"uri": MILVUS_CONFIG['uri']},
         embedding_function=embeddings,
         collection_name=MILVUS_CONFIG['collection_name'],
     )
 
-    retriever = vector_store.as_retriever(search_kwargs={"k": 5})
-    docs = retriever.invoke(query)
-    print(len(docs))
+    retriever: VectorStoreRetriever = vector_store.as_retriever(search_kwargs={"k": 5})
+    docs: list[Document] = retriever.invoke(query)
 
     return {"docs": docs}
 
 
 @router.get("/chunk_size")
 async def chunk_size():
-    document_paths = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
-                      'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
+    document_paths: list['str'] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
+                                   'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
 
     chunked_docs: list[Document] = []
-    token_counts = defaultdict(int)
+    token_counts: defaultdict = defaultdict(int)
 
     # Initialize tiktoken encoder, openai token estimation
-    enc = tiktoken.get_encoding("cl100k_base")
+    enc: Encoding = tiktoken.get_encoding("cl100k_base")
 
     for path in document_paths:
         logger.info(f"Processing document: {path}")
@@ -96,16 +98,16 @@ async def chunk_size():
     # Count tokens for each chunk and group them into intervals
     for doc in chunked_docs:
         token_count: int = len(enc.encode(doc.page_content))
-        interval = (token_count // 100) * 100
+        interval: int = (token_count // 100) * 100
         if interval <= 1000:
             token_counts[interval] += 1
 
     # Create the histogram data
-    histogram_data = []
+    histogram_data: list = []
     for i in range(0, 1100, 100):
-        range_start = i
-        range_end = i + 100
-        count = token_counts[i]
+        range_start: int = i
+        range_end: int = i + 100
+        count: int = token_counts[i]
         histogram_data.append({
             "total_docs": len(chunked_docs),
             "range": f"{range_start}-{range_end}",
@@ -119,4 +121,4 @@ async def chunk_size():
 
 def init_app(app: FastAPI) -> None:
     app.include_router(
-        router, prefix="/database", tags=["database"],)
+        router, prefix="/database", tags=["database"], )
