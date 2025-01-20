@@ -14,7 +14,7 @@ def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
         index_params={
             "metric_type": "COSINE",
             "index_type": "IVF_FLAT",
-            "params": {"nlist": 1024}
+            "params": {"nlist": 8}
         }
     )
 

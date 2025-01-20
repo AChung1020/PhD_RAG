@@ -1,4 +1,4 @@
-from fastapi import APIRouter, FastAPI
+from fastapi import APIRouter, FastAPI, HTTPException
 from logging import getLogger
 
 from langchain_milvus import Milvus
@@ -11,6 +11,7 @@ from PhD_RAG.src.database.core import setup_vectorstore
 from langchain_core.documents import Document
 from PhD_RAG.src.config import MILVUS_CONFIG, MODEL_CONFIG
 from PhD_RAG.src.database.embedding_model_client import StellaEmbeddings
+from pymilvus import connections, utility
 
 
 router: APIRouter = APIRouter()
@@ -37,6 +38,28 @@ async def create_vectorstore():
     setup_vectorstore(chunked_docs, uuids)
     return {"message": "Vectorstore created"}
 
+
+@router.delete("/delete_vectorstore")
+async def delete_vectorstore():
+    try:
+        # Ensure connection to Milvus
+        connections.connect(uri=MILVUS_CONFIG['uri'])
+
+        # Check if collection exists before trying to delete
+        if utility.has_collection(MILVUS_CONFIG['collection_name']):
+            utility.drop_collection(MILVUS_CONFIG['collection_name'])
+            return {"message": f"Collection {MILVUS_CONFIG['collection_name']} successfully deleted"}
+        else:
+            return {"message": f"Collection {MILVUS_CONFIG['collection_name']} does not exist"}
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to delete collection: {str(e)}"
+        )
+    finally:
+        # Clean up connection
+        connections.disconnect("default")
 
 @router.post("/query_results")
 async def query_results(query: str):
