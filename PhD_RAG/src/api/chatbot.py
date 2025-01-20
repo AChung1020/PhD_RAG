@@ -1,15 +1,9 @@
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
+from PhD_RAG.src.models import ChatRequest, ChatResponse
 
 router = APIRouter()
 
-class ChatRequest(BaseModel):
-    query: str
-
-class ChatResponse(BaseModel):
-    answer: str
-
-@router.post("/chat")
+@router.post("/chat", response_model=ChatResponse)
 async def get_response(request: ChatRequest):
     """
     Handle chatbot interactions by receiving a query and returning an answer.
