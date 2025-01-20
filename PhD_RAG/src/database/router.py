@@ -23,7 +23,7 @@ logger = getLogger(__name__)
 async def create_vectorstore():
     logger.info("Creating vectorstore...")
 
-    document_paths = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
+    document_paths: list[str] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
                       'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
 
     chunked_docs: list[Document] = []

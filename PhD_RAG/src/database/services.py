@@ -36,7 +36,7 @@ def chunk_documents(doc_path: str) -> list[Document]:
     headers_to_split_on: list[tuple[str, str]] = [("#", "Header_1")]
 
     # split text
-    splitter: MarkdownHeaderTextSplitter = MarkdownHeaderTextSplitter(headers_to_split_on)
+    splitter: MarkdownHeaderTextSplitter = MarkdownHeaderTextSplitter(headers_to_split_on, strip_headers=False)
     splits: list[Document] = splitter.split_text(markdown_file)
 
     return splits
