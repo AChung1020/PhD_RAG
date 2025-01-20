@@ -9,11 +9,10 @@ def chunk_documents(doc_path: str) -> list[Document]:
         markdown_file: str = f.read()
 
     # define split points
-    headers_to_split_on: list[tuple[str, str]] = [("#", "Header 1")]
+    headers_to_split_on: list[tuple[str, str]] = [("#", "Header_1")]
 
     # split text
     splitter: MarkdownHeaderTextSplitter = MarkdownHeaderTextSplitter(headers_to_split_on)
     splits: list[Document] = splitter.split_text(markdown_file)
 
     return splits
-
