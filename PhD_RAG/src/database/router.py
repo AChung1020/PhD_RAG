@@ -17,7 +17,7 @@ router: APIRouter = APIRouter()
 logger = getLogger(__name__)
 
 
-@router.post("/create_vectorstore")
+@router.put("/create_vectorstore")
 async def create_vectorstore():
     logger.info("Creating vectorstore...")
 
