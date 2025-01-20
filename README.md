@@ -12,7 +12,7 @@ poetry install
 Once the dependencies are installed, run the poetry environment:
 
 ```bash
-poetry shell
+poetry env activate
 ```
 
 please run the following command to start the chatbot:
