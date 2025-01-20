@@ -1,12 +1,12 @@
+import anthropic
 import os
-import aiohttp
+from PhD_RAG.src.config import settings
 from fastapi import APIRouter, HTTPException, FastAPI
 from PhD_RAG.src.models import ChatRequest, ChatResponse
 
 router = APIRouter()
 
-CLAUDE_API_KEY = os.getenv("CLAUD_API_KEY")
-CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
+client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
 
 @router.post("/chat", response_model=ChatResponse)
 async def get_response(request: ChatRequest):
@@ -17,27 +17,44 @@ async def get_response(request: ChatRequest):
     if not query:
         raise HTTPException(detail="Empty query", status_code=400)
 
-    response = process_query(query)
+    try:
+        response = await process_query(query)
+    except Exception as e:
+        raise HTTPException(detail=str(e), status_code=500)
     return ChatResponse(answer=response)
 
-async def process_query(query: str):
-    headers = {
-        'x-api-key': CLAUDE_API_KEY,
-        'Content-Type': 'application/json',
-        'anthropic-version': '2023-06-01',
-    }
+async def process_query(query: str) -> str:
+    # headers = {
+    #     'x-api-key': CLAUDE_API_KEY,
+    #     'Content-Type': 'application/json',
+    #     'anthropic-version': '2023-06-01',
+    # }
+    #
+    # payload = {
+    #     'model': 'claude-3-5-sonnet-20241022',
+    #     'max_tokens':300,
+    #     'messages': [
+    #         {'role':'user', 'content':query}
+    #     ],
+    # }
+    context = ""
+    prompt = f"""
+        Context: {context}
+    
+        User Query: {query}
+    
+        Based on the provided context, answer the user's query accurately. If the context lacks sufficient information, state that clearly.
+    """
 
-    payload = {
-        'model': 'claude-3-5-sonnet-20241022',
-        'max_tokens':300,
-        'messages': [
-            {'role':'user', 'content':query}
-        ],
-    }
-
-
-    return "This is a placeholder response."
-
+    try:
+        response = client.messages.create(
+            model=settings.model_name,
+            max_tokens=settings.max_tokens,
+            messages=[{"role":"user", "content":prompt}],
+        )
+        return response.content[0].text.strip()
+    except Exception as e:
+        raise ValueError(f"Failed to generate response: {e}")
 
 def init_app(app: FastAPI) -> None:
     app.include_router(

@@ -1,9 +1,9 @@
 # Global configurations
 import os
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    anthropic_api_key: str = os.getenv("CLAUDE_API_KEY")
+    anthropic_api_key: str
     model_name: str = "claude-3-5-sonnet-20241022"
     max_tokens: int = 300
 
