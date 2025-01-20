@@ -101,5 +101,4 @@ class StellaEmbeddings(Embeddings):
     def embed_query(self, text: str) -> List[float]:
         """Embed a query with the instruction prompt"""
         query_prompt = "Instruct: Given a web search query, retrieve relevant passages that answer the query.\nQuery: "
-        print(self.embed_documents([query_prompt + text])[0])
         return self.embed_documents([query_prompt + text])[0]
