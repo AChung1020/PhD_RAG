@@ -19,6 +19,6 @@ MODEL_CONFIG = {
 
 # Milvus_configurations
 MILVUS_CONFIG = {
-    'uri': os.getenv('MILVUS_URI', './handbook_data.db'),  # Default to local Milvus Lite
+    'uri': os.getenv('MILVUS_URI', './handbook_data.db'),
     'collection_name': os.getenv('MILVUS_COLLECTION', 'document_store')
 }
