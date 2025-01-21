@@ -24,19 +24,6 @@ async def get_response(request: ChatRequest):
     return ChatResponse(answer=response)
 
 async def process_query(query: str) -> str:
-    # headers = {
-    #     'x-api-key': CLAUDE_API_KEY,
-    #     'Content-Type': 'application/json',
-    #     'anthropic-version': '2023-06-01',
-    # }
-    #
-    # payload = {
-    #     'model': 'claude-3-5-sonnet-20241022',
-    #     'max_tokens':300,
-    #     'messages': [
-    #         {'role':'user', 'content':query}
-    #     ],
-    # }
     context = ""
     prompt = f"""
         Context: {context}
