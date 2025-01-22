@@ -1,19 +1,18 @@
-from fastapi import APIRouter, FastAPI, HTTPException
-from logging import getLogger
-
-from langchain_milvus import Milvus
 from collections import defaultdict
-import tiktoken
-from tiktoken import Encoding
+from logging import getLogger
 from uuid import uuid4
 
-from PhD_RAG.src.database.services import chunk_documents
-from PhD_RAG.src.database.services import setup_vectorstore
+import tiktoken
+from fastapi import APIRouter, FastAPI, HTTPException
 from langchain_core.documents import Document
-from PhD_RAG.src.config import MILVUS_CONFIG, MODEL_CONFIG, OPENAI_API_KEY
-from pymilvus import connections, utility
 from langchain_core.vectorstores import VectorStoreRetriever
+from langchain_milvus import Milvus
 from langchain_openai import OpenAIEmbeddings
+from pymilvus import connections, utility
+from tiktoken import Encoding
+
+from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
+from PhD_RAG.src.database.services import chunk_documents, setup_vectorstore
 
 router: APIRouter = APIRouter()
 logger = getLogger(__name__)
@@ -33,8 +32,10 @@ async def create_vectorstore():
     """
     logger.info("Creating vectorstore...")
 
-    document_paths: list[str] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
-                      'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
+    document_paths: list[str] = [
+        "Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md",
+        "Data/MD_handbooks/csi-phd-handbook-2024.pdf.md",
+    ]
 
     chunked_docs: list[Document] = []
     # Process each document path
@@ -68,19 +69,22 @@ async def delete_vectorstore():
     """
     try:
         # Ensure connection to Milvus
-        connections.connect(uri=MILVUS_CONFIG['uri'])
+        connections.connect(uri=MILVUS_CONFIG["uri"])
 
         # Check if collection exists before trying to delete
-        if utility.has_collection(MILVUS_CONFIG['collection_name']):
-            utility.drop_collection(MILVUS_CONFIG['collection_name'])
-            return {"message": f"Collection {MILVUS_CONFIG['collection_name']} successfully deleted"}
+        if utility.has_collection(MILVUS_CONFIG["collection_name"]):
+            utility.drop_collection(MILVUS_CONFIG["collection_name"])
+            return {
+                "message": f"Collection {MILVUS_CONFIG['collection_name']} successfully deleted"
+            }
         else:
-            return {"message": f"Collection {MILVUS_CONFIG['collection_name']} does not exist"}
+            return {
+                "message": f"Collection {MILVUS_CONFIG['collection_name']} does not exist"
+            }
 
     except Exception as e:
         raise HTTPException(
-            status_code=500,
-            detail=f"Failed to delete collection: {str(e)}"
+            status_code=500, detail=f"Failed to delete collection: {str(e)}"
         )
     finally:
         # Clean up connection
@@ -106,16 +110,16 @@ async def query_results(query: str):
         - 'docs': A list of top 5 most relevant documents
           retrieved from the vectorstore
     """
-    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
+    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+        model="text-embedding-3-large", api_key=OPENAI_API_KEY
+    )
     vector_store: Milvus = Milvus(
-        connection_args={"uri": MILVUS_CONFIG['uri']},
+        connection_args={"uri": MILVUS_CONFIG["uri"]},
         embedding_function=embeddings,
-        collection_name=MILVUS_CONFIG['collection_name'],
+        collection_name=MILVUS_CONFIG["collection_name"],
     )
 
-    results = vector_store.similarity_search_with_score(
-        query, k=1
-    )
+    results = vector_store.similarity_search_with_score(query, k=1)
     for res, score in results:
         print(f"* [SIM={score:3f}] {res.page_content} [{res.metadata}]")
 
@@ -144,8 +148,10 @@ async def chunk_size():
             * start: Start of the token range
             * end: End of the token range
     """
-    document_paths: list['str'] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
-                                   'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
+    document_paths: list["str"] = [
+        "Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md",
+        "Data/MD_handbooks/csi-phd-handbook-2024.pdf.md",
+    ]
 
     chunked_docs: list[Document] = []
     token_counts: defaultdict = defaultdict(int)
@@ -171,17 +177,22 @@ async def chunk_size():
         range_start: int = i
         range_end: int = i + 100
         count: int = token_counts[i]
-        histogram_data.append({
-            "total_docs": len(chunked_docs),
-            "range": f"{range_start}-{range_end}",
-            "count": count,
-            "start": range_start,
-            "end": range_end
-        })
+        histogram_data.append(
+            {
+                "total_docs": len(chunked_docs),
+                "range": f"{range_start}-{range_end}",
+                "count": count,
+                "start": range_start,
+                "end": range_end,
+            }
+        )
 
     return {"histogram_data": histogram_data}
 
 
 def init_app(app: FastAPI) -> None:
     app.include_router(
-        router, prefix="/database", tags=["database"], )
+        router,
+        prefix="/database",
+        tags=["database"],
+    )
