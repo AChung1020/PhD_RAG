@@ -22,9 +22,14 @@ logger = getLogger(__name__)
 @router.put("/create_vectorstore")
 async def create_vectorstore():
     """
-    Create a vectorstore from the documents in the Data/MD_handbooks directory.
-    :return:
-        dict: A message indicating the result of the operation.
+    Create a vectorstore from documents in the Data/MD_handbooks directory.
+
+    Creates document chunks and sets up a Milvus vectorstore with unique identifiers.
+
+    Returns
+    -------
+    dict:
+        A dictionary containing a success message indicating vectorstore creation.
     """
     logger.info("Creating vectorstore...")
 
@@ -49,9 +54,17 @@ async def create_vectorstore():
 @router.delete("/delete_vectorstore")
 async def delete_vectorstore():
     """
-    Delete the vectorstore.
-    :return:
-        dict: A message indicating the result of the operation.
+    Delete the existing Milvus vectorstore collection.
+
+    Checks for the collection's existence and drops it if present.
+    Handles connection management and potential errors.
+
+    Returns
+    -------
+    dict:
+        A dictionary containing a message about the deletion status:
+        - Successful deletion confirmation
+        - Indication that the collection did not exist
     """
     try:
         # Ensure connection to Milvus
@@ -77,9 +90,21 @@ async def delete_vectorstore():
 @router.post("/query_results")
 async def query_results(query: str):
     """
-    Query the vectorstore.
-    :param query: str: The question a user would ask
-    :return: documents: dict[list[Document]]: The top 5 documents that are relevant to the query
+    Query the vectorstore to retrieve relevant documents.
+
+    Performs a similarity search using the provided query string.
+
+    Parameters
+    ----------
+    query : str
+        The user's search query or question.
+
+    Returns
+    -------
+    dict:
+        A dictionary containing:
+        - 'docs': A list of top 5 most relevant documents
+          retrieved from the vectorstore
     """
     embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
     vector_store: Milvus = Milvus(
@@ -103,8 +128,21 @@ async def query_results(query: str):
 @router.get("/chunk_size")
 async def chunk_size():
     """
-    Get the chunk size of the documents in the Data/MD_handbooks directory.
-    :return: list[dict]: A list of dictionaries containing the chunk size and the number of chunks
+    Retrieve chunk size distribution for documents in the Data/MD_handbooks directory.
+
+    Analyzes the chunked documents and generates a histogram of token counts,
+    grouping chunks into 100-token intervals up to 1000 tokens.
+
+    Returns
+    -------
+    dict:
+        A dictionary containing:
+        - 'histogram_data': A list of dictionaries, each representing a token range with:
+            * total_docs: Total number of document chunks
+            * range: Token range as a string (e.g., "0-100")
+            * count: Number of chunks in this token range
+            * start: Start of the token range
+            * end: End of the token range
     """
     document_paths: list['str'] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
                                    'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']

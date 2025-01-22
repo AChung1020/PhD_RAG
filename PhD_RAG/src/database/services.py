@@ -7,10 +7,19 @@ from langchain_openai import OpenAIEmbeddings
 
 def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
     """
-    Set up the vectorstore.
-    :param documents: list[Document]: The documents to add to the vectorstore.
-    :param uuids: list[str]: The uuids of the documents.
-    :return: Milvus instance: The vectorstore instance.
+    Set up the vectorstore with given documents.
+
+    Parameters
+    ----------
+    documents : list[Document]
+        The documents to be added to the vectorstore.
+    uuids : list[str]
+        The unique identifiers corresponding to the documents.
+
+    Returns
+    -------
+    Milvus
+        An initialized Milvus vectorstore instance containing the documents.
     """
     embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
 
@@ -35,9 +44,22 @@ def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
 
 def chunk_documents(doc_path: str) -> list[Document]:
     """
-    Chunk the documents.
-    :param doc_path: str: The path to the document in your local directory
-    :return: chunked_docs: list[Document]: The chunked documents.
+    Chunk the documents into smaller, more manageable pieces.
+
+    Parameters
+    ----------
+    doc_path : str
+        The path to the document in your local directory.
+
+    Returns
+    -------
+    chunked_docs : list[Document]
+        A list of chunked documents ready for further processing.
+
+    Notes
+    -----
+    This function breaks down large documents into smaller chunks
+    to improve processing and retrieval efficiency.
     """
     # read file
     with open(doc_path, encoding='utf-8') as f:
