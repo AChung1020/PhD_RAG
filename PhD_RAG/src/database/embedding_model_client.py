@@ -8,95 +8,73 @@ import os
 
 
 class StellaEmbeddings(Embeddings):
-    def __init__(self, model_name: str = MODEL_CONFIG['name']):
+    def __init__(self, model_name: str = MODEL_CONFIG['name'], vector_dim: int = 1024):
+        # Configure device
+        if torch.cuda.is_available():
+            self.device = torch.device("cuda")
+        elif torch.backends.mps.is_available():
+            self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_name,
             cache_dir=MODEL_CONFIG['cache_dir'],
             trust_remote_code=True
         )
 
-        # Configure device - try MPS first, then CPU
-        if torch.backends.mps.is_available():
-            self.device = torch.device("mps")
-        else:
-            self.device = torch.device("cpu")
-
-        # Disable memory efficient attention
         self.model = AutoModel.from_pretrained(
             model_name,
             trust_remote_code=True,
             cache_dir=MODEL_CONFIG['cache_dir'],
             use_memory_efficient_attention=False,
             unpad_inputs=False
-        )
+        ).to(self.device).eval()
 
-        self.model = self.model.to(self.device)
-
-        # Setup vector linear layer
-        vector_dim = 1024
+        # Setup vector linear layer with specific dimension
         self.vector_linear = torch.nn.Linear(
             in_features=self.model.config.hidden_size,
-            out_features=vector_dim
-        ).to(self.device)
+            out_features=vector_dim,
+        )
 
-        # Load vector linear weights if they exist
+        # Load vector linear weights from the correct directory structure
         vector_linear_path = os.path.join(
-            MODEL_CONFIG['cache_dir'],
+            'PhD_RAG/cache/models--dunzhang--stella_en_400M_v5',  # Using model_name directly as the directory
             f"2_Dense_{vector_dim}/pytorch_model.bin"
         )
-        if os.path.exists(vector_linear_path):
-            vector_linear_dict = {
-                k.replace("linear.", ""): v
-                for k, v in torch.load(vector_linear_path, map_location=self.device).items()
-            }
-            self.vector_linear.load_state_dict(vector_linear_dict)
 
-        self.model.eval()
+        if not os.path.exists(vector_linear_path):
+            raise ValueError(f"Vector linear weights not found at {vector_linear_path}")
+
+        vector_linear_dict = {
+            k.replace("linear.", ""): v
+            for k, v in torch.load(vector_linear_path, map_location=torch.device(self.device)).items()
+        }
+        self.vector_linear.load_state_dict(vector_linear_dict)
+        self.vector_linear.to(self.device)
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        """Embed a list of documents using batching"""
-        batch_size = 4  # Adjust based on your GPU memory
-        all_embeddings = []
+        with torch.no_grad():
+            inputs = self.tokenizer(
+                texts,
+                padding="longest",
+                truncation=True,
+                max_length=512,
+                return_tensors="pt"
+            )
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-        # Set model to eval mode
-        self.model.eval()
+            attention_mask = inputs["attention_mask"]
+            last_hidden_state = self.model(**inputs)[0]
 
-        # Set deterministic behavior
-        torch.manual_seed(42)
-        if torch.cuda.is_available():
-            torch.cuda.manual_seed_all(42)
-        torch.backends.cudnn.deterministic = True
-        torch.backends.cudnn.benchmark = False
+            last_hidden = last_hidden_state.masked_fill(
+                ~attention_mask[..., None].bool(),
+                0.0
+            )
+            vectors = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
+            vectors = normalize(self.vector_linear(vectors).cpu().numpy())
 
-        for i in range(0, len(texts), batch_size):
-            batch = texts[i:i + batch_size]
-            with torch.no_grad():
-                inputs = self.tokenizer(
-                    batch,
-                    padding="longest",
-                    truncation=True,
-                    max_length=512,
-                    return_tensors="pt"
-                )
-                inputs = {k: v.to(self.device) for k, v in inputs.items()}
-
-                attention_mask = inputs["attention_mask"]
-                last_hidden_state = self.model(**inputs)[0]
-
-                # Mask and pool
-                last_hidden = last_hidden_state.masked_fill(
-                    ~attention_mask[..., None].bool(),
-                    0.0
-                )
-                vectors = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
-
-                # Project and normalize
-                vectors = self.vector_linear(vectors)
-                vectors = normalize(vectors.cpu().numpy())
-
-                all_embeddings.extend(vectors.tolist())
-
-        return all_embeddings
+            return vectors.tolist()
 
     def embed_query(self, query: str) -> List[float]:
         """Embed a query with the instruction prompt"""

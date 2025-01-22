@@ -1,12 +1,12 @@
 from langchain_text_splitters import MarkdownHeaderTextSplitter
 from langchain_milvus import Milvus
-from PhD_RAG.src.database.embedding_model_client import StellaEmbeddings
-from PhD_RAG.src.config import MODEL_CONFIG, MILVUS_CONFIG
+from PhD_RAG.src.config import MODEL_CONFIG, MILVUS_CONFIG, OPENAI_API_KEY
 from langchain_core.documents import Document
+from langchain_openai import OpenAIEmbeddings
 
 
 def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
-    embeddings: StellaEmbeddings = StellaEmbeddings(MODEL_CONFIG['name'])
+    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
 
     vector_store: Milvus = Milvus(
         embedding_function=embeddings,

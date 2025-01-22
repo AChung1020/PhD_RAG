@@ -10,10 +10,10 @@ from uuid import uuid4
 from PhD_RAG.src.database.services import chunk_documents
 from PhD_RAG.src.database.services import setup_vectorstore
 from langchain_core.documents import Document
-from PhD_RAG.src.config import MILVUS_CONFIG, MODEL_CONFIG
-from PhD_RAG.src.database.embedding_model_client import StellaEmbeddings
+from PhD_RAG.src.config import MILVUS_CONFIG, MODEL_CONFIG, OPENAI_API_KEY
 from pymilvus import connections, utility
 from langchain_core.vectorstores import VectorStoreRetriever
+from langchain_openai import OpenAIEmbeddings
 
 router: APIRouter = APIRouter()
 logger = getLogger(__name__)
@@ -66,12 +66,18 @@ async def delete_vectorstore():
 
 @router.post("/query_results")
 async def query_results(query: str):
-    embeddings: StellaEmbeddings = StellaEmbeddings(MODEL_CONFIG['name'])
+    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
     vector_store: Milvus = Milvus(
         connection_args={"uri": MILVUS_CONFIG['uri']},
         embedding_function=embeddings,
         collection_name=MILVUS_CONFIG['collection_name'],
     )
+
+    results = vector_store.similarity_search_with_score(
+        query, k=1
+    )
+    for res, score in results:
+        print(f"* [SIM={score:3f}] {res.page_content} [{res.metadata}]")
 
     retriever: VectorStoreRetriever = vector_store.as_retriever(search_kwargs={"k": 5})
     docs: list[Document] = retriever.invoke(query)
