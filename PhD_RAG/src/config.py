@@ -2,8 +2,12 @@
 import os
 from pydantic_settings import BaseSettings
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 
 class Settings(BaseSettings):
     anthropic_api_key: str
@@ -15,3 +19,20 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings()
+
+# Base paths
+BASE_DIR = Path(__file__).resolve().parent.parent
+CACHE_DIR = os.getenv("CACHE_DIR", str(BASE_DIR / "cache"))
+
+# Model configurations - For stella embeddings - currently using openAI
+MODEL_CONFIG = {
+    "name": "dunzhang/stella_en_400M_v5",
+    "device": "cuda" if os.getenv("USE_GPU", "1") == "1" else "cpu",
+    "cache_dir": CACHE_DIR,
+}
+
+# Milvus_configurations
+MILVUS_CONFIG = {
+    "uri": os.getenv("MILVUS_URI", "./database/handbooks.db"),
+    "collection_name": os.getenv("MILVUS_COLLECTION", "handbook_store"),
+}

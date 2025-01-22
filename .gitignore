@@ -1,4 +1,4 @@
 .env
+PhD_RAG/cache/
 __pycache__/
-
 .idea/
