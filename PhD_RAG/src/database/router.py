@@ -21,6 +21,11 @@ logger = getLogger(__name__)
 
 @router.put("/create_vectorstore")
 async def create_vectorstore():
+    """
+    Create a vectorstore from the documents in the Data/MD_handbooks directory.
+    :return:
+        dict: A message indicating the result of the operation.
+    """
     logger.info("Creating vectorstore...")
 
     document_paths: list[str] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
@@ -43,6 +48,11 @@ async def create_vectorstore():
 
 @router.delete("/delete_vectorstore")
 async def delete_vectorstore():
+    """
+    Delete the vectorstore.
+    :return:
+        dict: A message indicating the result of the operation.
+    """
     try:
         # Ensure connection to Milvus
         connections.connect(uri=MILVUS_CONFIG['uri'])
@@ -66,6 +76,11 @@ async def delete_vectorstore():
 
 @router.post("/query_results")
 async def query_results(query: str):
+    """
+    Query the vectorstore.
+    :param query: str: The question a user would ask
+    :return: documents: dict[list[Document]]: The top 5 documents that are relevant to the query
+    """
     embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
     vector_store: Milvus = Milvus(
         connection_args={"uri": MILVUS_CONFIG['uri']},
@@ -87,6 +102,10 @@ async def query_results(query: str):
 
 @router.get("/chunk_size")
 async def chunk_size():
+    """
+    Get the chunk size of the documents in the Data/MD_handbooks directory.
+    :return: list[dict]: A list of dictionaries containing the chunk size and the number of chunks
+    """
     document_paths: list['str'] = ['Data/MD_handbooks/laney-graduate-studies-handbook-cleaned.md',
                                    'Data/MD_handbooks/csi-phd-handbook-2024.pdf.md']
 

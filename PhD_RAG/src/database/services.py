@@ -6,6 +6,12 @@ from langchain_openai import OpenAIEmbeddings
 
 
 def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
+    """
+    Set up the vectorstore.
+    :param documents: list[Document]: The documents to add to the vectorstore.
+    :param uuids: list[str]: The uuids of the documents.
+    :return: Milvus instance: The vectorstore instance.
+    """
     embeddings: OpenAIEmbeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key=OPENAI_API_KEY)
 
     vector_store: Milvus = Milvus(
@@ -28,6 +34,11 @@ def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
 
 
 def chunk_documents(doc_path: str) -> list[Document]:
+    """
+    Chunk the documents.
+    :param doc_path: str: The path to the document in your local directory
+    :return: chunked_docs: list[Document]: The chunked documents.
+    """
     # read file
     with open(doc_path, encoding='utf-8') as f:
         markdown_file: str = f.read()
