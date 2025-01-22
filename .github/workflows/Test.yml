@@ -69,9 +69,3 @@ jobs:
         shell: bash
         run: |
           poetry run pytest -v --cov --cov-report=xml --cov-branch
-
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "style: auto-format Python code with Black, isort and Ruff"
-          branch: ${{ github.head_ref }}
