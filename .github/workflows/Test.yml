@@ -10,7 +10,7 @@ on:
 jobs:
   format:
     name: Format and Test Python code
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,7 +22,6 @@ jobs:
           python-version: "3.12.0"
           cache: 'pip'
           cache-dependency-path: |
-            **/requirements*.txt
             pyproject.toml
             poetry.lock
 
