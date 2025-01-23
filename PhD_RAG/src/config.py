@@ -10,7 +10,8 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 
 class Settings(BaseSettings):
-    anthropic_api_key: str
+    claude_api_key: str
+    openai_api_key: str
     api_url: str
     model_name: str = "claude-3-5-sonnet-20241022"
     max_tokens: int = 300

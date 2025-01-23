@@ -5,6 +5,7 @@ from PhD_RAG.src.api import chatbot
 
 app = FastAPI(title="PhD RAG Chatbot")
 from PhD_RAG.src.database.router import init_app as init_database
+from PhD_RAG.src.api.chatbot import init_app as init_chat
 
 app = FastAPI()
 
@@ -12,6 +13,7 @@ app = FastAPI()
 def init_routers(app: FastAPI) -> None:
     """Initialize all routers"""
     init_database(app)
+    init_chat(app)
 
 
 app.add_middleware(
@@ -23,9 +25,6 @@ app.add_middleware(
 )
 
 init_routers(app)
-
-
-app.include_router(chatbot.router, prefix="/api/v1", tags=["chatbot"])
 
 @app.get("/")
 async def root():

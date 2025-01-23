@@ -6,7 +6,7 @@ from PhD_RAG.src.models import ChatRequest, ChatResponse
 
 router = APIRouter()
 
-client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+client = anthropic.Anthropic(api_key=settings.claude_api_key)
 
 @router.post("/chat", response_model=ChatResponse)
 async def get_response(request: ChatRequest):
