@@ -1,13 +1,15 @@
 # Global configurations
 import os
-from pydantic_settings import BaseSettings
-from dotenv import load_dotenv
 from pathlib import Path
+
+from dotenv import load_dotenv
+from pydantic_settings import BaseSettings
 
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
+
 
 class Settings(BaseSettings):
     anthropic_api_key: str
@@ -17,6 +19,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+
 
 settings = Settings()
 
