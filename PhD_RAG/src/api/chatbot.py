@@ -18,7 +18,25 @@ client = anthropic.Anthropic(api_key=settings.claude_api_key)
 @router.post("/chat", response_model=ChatResponse)
 async def get_response(request: ChatRequest):
     """
-    Handle chatbot interactions by receiving a query and returning an answer.
+    Handle chatbot interactions by receiving a user query and generating a response.
+
+    Parameters
+    ----------
+    request : ChatRequest
+        A request object containing the user's query string.
+
+    Returns
+    -------
+    ChatResponse
+        A response object containing:
+        - 'answer': A string representing the chatbot's response to the user's query,
+          based on the retrieved documents.
+
+    Raises
+    ------
+    HTTPException
+        - 400: If the query is empty or invalid.
+        - 500: If an error occurs during document retrieval or response generation.
     """
     query = request.query
     if not query:
