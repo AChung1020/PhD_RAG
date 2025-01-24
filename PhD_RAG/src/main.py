@@ -1,8 +1,8 @@
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from PhD_RAG.src.database.router import init_app as init_database
+
 from PhD_RAG.src.api import chatbot
+from PhD_RAG.src.database.router import init_app as init_database
 
 app = FastAPI(title="PhD RAG Chatbot")
 
