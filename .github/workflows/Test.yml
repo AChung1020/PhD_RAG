@@ -40,14 +40,15 @@ jobs:
         uses: actions/cache@v3
         with:
           path: .venv
-          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
           restore-keys: |
             ${{ runner.os }}-poetry-
 
       - name: Install Dependencies with Poetry
         shell: bash
         run: |
-          poetry install --no-interaction --no-root
+          poetry lock
+          poetry install --no-interaction --no-root --with dev
 
       - name: Format with black
         shell: bash
