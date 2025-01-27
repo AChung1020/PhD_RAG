@@ -2,7 +2,9 @@ import logging
 
 import anthropic
 from fastapi import APIRouter, FastAPI, HTTPException
+from langchain_core.documents import Document
 
+from PhD_RAG.src.api.services import process_query
 from PhD_RAG.src.config import settings
 from PhD_RAG.src.database.router import query_results
 from PhD_RAG.src.models import ChatRequest, ChatResponse
@@ -15,7 +17,7 @@ client = anthropic.Anthropic(api_key=settings.claude_api_key)
 
 
 @router.post("/chat", response_model=ChatResponse)
-async def get_response(request: ChatRequest):
+async def get_response(request: ChatRequest) -> ChatResponse:
     """
     Handle chatbot interactions by receiving a user query and generating a response.
 
@@ -37,43 +39,16 @@ async def get_response(request: ChatRequest):
         - 400: If the query is empty or invalid.
         - 500: If an error occurs during document retrieval or response generation.
     """
-    query = request.query
+    query: str = request.query
     if not query:
         raise HTTPException(detail="Empty query", status_code=400)
 
     try:
-        retrieved_context = await query_results(query)
-        response = await process_query(query, retrieved_context)
+        retrieved_context: dict[str, list[Document]] = await query_results(query)
+        response: str = await process_query(query, retrieved_context)
     except Exception as e:
         raise HTTPException(detail=str(e), status_code=500)
     return ChatResponse(answer=response)
-
-
-async def process_query(query: str, retrieved_context: dict) -> str:
-    context = "\n".join(doc.page_content for doc in retrieved_context["docs"])
-    max_context_length = 4000
-    if len(context) > max_context_length:
-        context = context[:max_context_length]
-        logger.warning("Context truncated due to length restrictions.")
-
-    prompt = f"""
-    Context: {context}
---------------------------------------
-    User Query: {query}
---------------------------------------
-    Based on the provided context, answer the user's query accurately. If the context lacks sufficient information, state that clearly.
-    """
-
-    print(f"Created Prompt: {prompt}")
-    try:
-        response = client.messages.create(
-            model=settings.model_name,
-            max_tokens=settings.max_tokens,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return response.content[0].text.strip()
-    except Exception as e:
-        raise ValueError(f"Failed to generate response: {e}")
 
 
 def init_app(app: FastAPI) -> None:

@@ -92,7 +92,7 @@ async def delete_vectorstore():
 
 
 @router.post("/query_results")
-async def query_results(query: str):
+async def query_results(query: str) -> dict[str, list[Document]]:
     """
     Query the vectorstore to retrieve relevant documents.
 
