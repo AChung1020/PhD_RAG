@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from PhD_RAG.src.api.router import init_app as init_chatbot
 from PhD_RAG.src.database.router import init_app as init_database
+from PhD_RAG.src.evaluation.router import init_app as init_evaluation
 
 app = FastAPI(title="PhD RAG Chatbot")
 
@@ -14,6 +15,7 @@ def init_routers(app: FastAPI) -> None:
     """Initialize all routers"""
     init_database(app)
     init_chatbot(app)
+    init_evaluation(app)
 
 
 app.add_middleware(
