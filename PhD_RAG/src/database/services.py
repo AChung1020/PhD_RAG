@@ -4,9 +4,12 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import MarkdownHeaderTextSplitter
 
 from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
+from PhD_RAG.src.database.bge_m3 import BGE_M3_Embeddings
 
 
-def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
+def setup_vectorstore(
+    documents: list[Document], uuids: list[str], model_type: str = "openai"
+) -> Milvus:
     """
     Set up the vectorstore with given documents.
 
@@ -22,14 +25,19 @@ def setup_vectorstore(documents: list[Document], uuids: list[str]) -> Milvus:
     Milvus
         An initialized Milvus vectorstore instance containing the documents.
     """
-    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
-        model="text-embedding-3-large", api_key=OPENAI_API_KEY
-    )
+    if model_type == "bge-m3":
+        embeddings: BGE_M3_Embeddings = BGE_M3_Embeddings()
+        collection_name = MILVUS_CONFIG["collection_name"]["bge-m3"]
+    else:
+        embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+            model="text-embedding-3-large", api_key=OPENAI_API_KEY
+        )
+        collection_name = MILVUS_CONFIG["collection_name"]["openai"]
 
     vector_store: Milvus = Milvus(
         embedding_function=embeddings,
         connection_args={"uri": MILVUS_CONFIG["uri"]},
-        collection_name=MILVUS_CONFIG["collection_name"],
+        collection_name=collection_name,
         index_params={
             "metric_type": "COSINE",
             "index_type": "IVF_FLAT",
