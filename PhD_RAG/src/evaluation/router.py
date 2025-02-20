@@ -1,4 +1,5 @@
 import json
+from typing import Literal
 
 from fastapi import APIRouter, FastAPI
 from langchain_core.documents import Document
@@ -42,9 +43,9 @@ async def generate_qa_dataset():
 
 
 @router.post("/evaluate_retrieval")
-async def evaluate_retrieval(k: int):
+async def evaluate_retrieval(k: int, model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"):
     eval_dataset = []
-    with open("new_claude_qa_pairs.json", "r") as f:
+    with open("Data/qa/new_claude_qa_pairs.json", "r") as f:
         qa_pairs = json.load(f)
 
     # qa_pairs = qa_pairs[:5]
@@ -52,7 +53,7 @@ async def evaluate_retrieval(k: int):
         query = qa["query"]
         pos_chunk = qa["pos"]
 
-        response = await query_results(query, k, "bge-m3")
+        response = await query_results(query, k, model_type)
         retrieved_docs = [doc.page_content for doc in response["docs"]]
 
         eval_dataset.append(
@@ -69,7 +70,7 @@ async def evaluate_retrieval(k: int):
     print(f"MAP@{k}: {map_k:.4f}")
     print(f"Success@{k}: {success_k:.4f}")
 
-    with open("bge_retrieved_dataset.json", "w") as f:
+    with open("bge_m3_retrieved_dataset.json", "w") as f:
         json.dump(eval_dataset, f, indent=4)
 
 

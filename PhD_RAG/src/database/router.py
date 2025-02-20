@@ -1,5 +1,6 @@
 from collections import defaultdict
 from logging import getLogger
+from typing import Literal
 from uuid import uuid4
 
 import tiktoken
@@ -13,6 +14,7 @@ from tiktoken import Encoding
 
 from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
 from PhD_RAG.src.database.bge_m3 import BGE_M3_Embeddings
+from PhD_RAG.src.database.bge_m3_large_en_v1_5 import BGE_M3_Large_en_v1_5_Embeddings
 from PhD_RAG.src.database.services import chunk_documents, setup_vectorstore
 
 router: APIRouter = APIRouter()
@@ -20,11 +22,15 @@ logger = getLogger(__name__)
 
 
 @router.put("/create_vectorstore")
-async def create_vectorstore():
+async def create_vectorstore(model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"):
     """
     Create a vectorstore from documents in the Data/MD_handbooks directory.
 
     Creates document chunks and sets up a Milvus vectorstore with unique identifiers.
+    Parameters
+    ----------
+    model_type : Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -49,7 +55,7 @@ async def create_vectorstore():
 
     logger.info(f"Number of chunks: {len(chunked_docs)}")
 
-    setup_vectorstore(chunked_docs, uuids, "bge-m3")
+    setup_vectorstore(chunked_docs, uuids, model_type)
     return {"message": "Vectorstore created"}
 
 
@@ -94,7 +100,7 @@ async def delete_vectorstore():
 
 @router.post("/query_results")
 async def query_results(
-    query: str, k: int, model_type: str = "openai"
+    query: str, k: int, model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"
 ) -> dict[str, list[Document]]:
     """
     Query the vectorstore to retrieve relevant documents.
@@ -107,8 +113,8 @@ async def query_results(
         The user's search query or question.
     k : int
         top k threshold
-    model_type : str
-        "openai" or "bge-m3" to choose the embedding model.
+    model_type : Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -117,7 +123,10 @@ async def query_results(
         - 'docs': A list of top 5 most relevant documents
           retrieved from the vectorstore
     """
-    if model_type == "bge-m3":
+    if model_type == "bge_m3_large_en_v1_5":
+        embeddings: BGE_M3_Large_en_v1_5_Embeddings = BGE_M3_Large_en_v1_5_Embeddings()
+        collection_name = MILVUS_CONFIG["collection_name"]["bge_m3_large_en_v1_5"]
+    elif model_type == "bge-m3":
         embeddings: BGE_M3_Embeddings = BGE_M3_Embeddings()
         collection_name = MILVUS_CONFIG["collection_name"]["bge-m3"]
     else:
