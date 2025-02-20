@@ -36,11 +36,16 @@ def setup_vectorstore(
     elif model_type == "bge-m3":
         embeddings: BGE_M3_Embeddings = BGE_M3_Embeddings()
         collection_name = MILVUS_CONFIG["collection_name"]["bge-m3"]
-    else:
+    elif model_type == "openai-large":
         embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
             model="text-embedding-3-large", api_key=OPENAI_API_KEY
         )
-        collection_name = MILVUS_CONFIG["collection_name"]["openai"]
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-large"]
+    elif model_type == "openai-small":
+        embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+            model="text-embedding-3-small", api_key=OPENAI_API_KEY
+        )
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-small"]
 
     vector_store: Milvus = Milvus(
         embedding_function=embeddings,

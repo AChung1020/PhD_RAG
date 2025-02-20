@@ -22,15 +22,15 @@ logger = getLogger(__name__)
 
 
 @router.put("/create_vectorstore")
-async def create_vectorstore(model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"):
+async def create_vectorstore(model_type: Literal["openai-small", "openai-large","bge-m3", "bge_m3_large_en_v1_5"] = "openai-large"):
     """
     Create a vectorstore from documents in the Data/MD_handbooks directory.
 
     Creates document chunks and sets up a Milvus vectorstore with unique identifiers.
     Parameters
     ----------
-    model_type : Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"]
-        Choose between "openai", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
+    model_type : Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai-small", "openai-large", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -100,7 +100,7 @@ async def delete_vectorstore():
 
 @router.post("/query_results")
 async def query_results(
-    query: str, k: int, model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"
+    query: str, k: int, model_type: Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"] = "openai-large"
 ) -> dict[str, list[Document]]:
     """
     Query the vectorstore to retrieve relevant documents.
@@ -113,8 +113,8 @@ async def query_results(
         The user's search query or question.
     k : int
         top k threshold
-    model_type : Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"]
-        Choose between "openai", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
+    model_type : Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai-small", "openai-large", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -129,11 +129,16 @@ async def query_results(
     elif model_type == "bge-m3":
         embeddings: BGE_M3_Embeddings = BGE_M3_Embeddings()
         collection_name = MILVUS_CONFIG["collection_name"]["bge-m3"]
-    else:
+    elif model_type == "openai-small":
+        embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+            model="text-embedding-3-small", api_key=OPENAI_API_KEY
+        )
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-small"]
+    elif model_type == "openai-large":
         embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
             model="text-embedding-3-large", api_key=OPENAI_API_KEY
         )
-        collection_name = MILVUS_CONFIG["collection_name"]["openai"]
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-large"]
 
     vector_store: Milvus = Milvus(
         connection_args={"uri": MILVUS_CONFIG["uri"]},
