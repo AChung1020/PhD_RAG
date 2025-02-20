@@ -1,5 +1,6 @@
 from collections import defaultdict
 from logging import getLogger
+from typing import Literal
 from uuid import uuid4
 
 import tiktoken
@@ -12,6 +13,9 @@ from pymilvus import connections, utility
 from tiktoken import Encoding
 
 from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
+from PhD_RAG.src.database.bge_m3 import BGE_M3_Embeddings
+from PhD_RAG.src.database.bge_m3_large_en_v1_5 import \
+    BGE_M3_Large_en_v1_5_Embeddings
 from PhD_RAG.src.database.services import chunk_documents, setup_vectorstore
 
 router: APIRouter = APIRouter()
@@ -19,11 +23,19 @@ logger = getLogger(__name__)
 
 
 @router.put("/create_vectorstore")
-async def create_vectorstore():
+async def create_vectorstore(
+    model_type: Literal[
+        "openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"
+    ] = "openai-large"
+):
     """
     Create a vectorstore from documents in the Data/MD_handbooks directory.
 
     Creates document chunks and sets up a Milvus vectorstore with unique identifiers.
+    Parameters
+    ----------
+    model_type : Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai-small", "openai-large", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -48,7 +60,7 @@ async def create_vectorstore():
 
     logger.info(f"Number of chunks: {len(chunked_docs)}")
 
-    setup_vectorstore(chunked_docs, uuids)
+    setup_vectorstore(chunked_docs, uuids, model_type)
     return {"message": "Vectorstore created"}
 
 
@@ -92,7 +104,13 @@ async def delete_vectorstore():
 
 
 @router.post("/query_results")
-async def query_results(query: str) -> dict[str, list[Document]]:
+async def query_results(
+    query: str,
+    k: int,
+    model_type: Literal[
+        "openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"
+    ] = "openai-large",
+) -> dict[str, list[Document]]:
     """
     Query the vectorstore to retrieve relevant documents.
 
@@ -102,6 +120,10 @@ async def query_results(query: str) -> dict[str, list[Document]]:
     ----------
     query : str
         The user's search query or question.
+    k : int
+        top k threshold
+    model_type : Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"]
+        Choose between "openai-small", "openai-large", "bge-m3", and "bge_m3_large_en_v1_5" embeddings
 
     Returns
     -------
@@ -110,20 +132,34 @@ async def query_results(query: str) -> dict[str, list[Document]]:
         - 'docs': A list of top 5 most relevant documents
           retrieved from the vectorstore
     """
-    embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
-        model="text-embedding-3-large", api_key=OPENAI_API_KEY
-    )
+    if model_type == "bge_m3_large_en_v1_5":
+        embeddings: BGE_M3_Large_en_v1_5_Embeddings = BGE_M3_Large_en_v1_5_Embeddings()
+        collection_name = MILVUS_CONFIG["collection_name"]["bge_m3_large_en_v1_5"]
+    elif model_type == "bge-m3":
+        embeddings: BGE_M3_Embeddings = BGE_M3_Embeddings()
+        collection_name = MILVUS_CONFIG["collection_name"]["bge-m3"]
+    elif model_type == "openai-small":
+        embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+            model="text-embedding-3-small", api_key=OPENAI_API_KEY
+        )
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-small"]
+    elif model_type == "openai-large":
+        embeddings: OpenAIEmbeddings = OpenAIEmbeddings(
+            model="text-embedding-3-large", api_key=OPENAI_API_KEY
+        )
+        collection_name = MILVUS_CONFIG["collection_name"]["openai-large"]
+
     vector_store: Milvus = Milvus(
         connection_args={"uri": MILVUS_CONFIG["uri"]},
         embedding_function=embeddings,
-        collection_name=MILVUS_CONFIG["collection_name"],
+        collection_name=collection_name,
     )
 
-    results = vector_store.similarity_search_with_score(query, k=1)
-    for res, score in results:
-        print(f"* [SIM={score:3f}] {res.page_content} [{res.metadata}]")
+    # results = vector_store.similarity_search_with_score(query, k=1)
+    # for res, score in results:
+    #     print(f"* [SIM={score:3f}] {res.page_content} [{res.metadata}]")
 
-    retriever: VectorStoreRetriever = vector_store.as_retriever(search_kwargs={"k": 5})
+    retriever: VectorStoreRetriever = vector_store.as_retriever(search_kwargs={"k": k})
     docs: list[Document] = retriever.invoke(query)
 
     return {"docs": docs}

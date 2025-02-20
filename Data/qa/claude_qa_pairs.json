@@ -1,0 +1,1858 @@
+[
+    {
+        "query": "What is the mission of the LGS (Laney Graduate School)?",
+        "answer": "The mission of the LGS is to promote discovery and enduring knowledge by preparing innovative, thoughtful leaders in research, scholarship, teaching, and practice in service to the global good."
+    },
+    {
+        "query": "How should graduate students plan their program of study?",
+        "answer": "A student's program of study must be planned in consultation with an appointed adviser, DGS, or advisory committee."
+    },
+    {
+        "query": "What is the LGS's expectation regarding program completion?",
+        "answer": "The LGS expects students to complete a graduate program in sequence and as expeditiously as possible. Students generally follow degree requirements under the policies in place at their first admission, though they may petition for exceptions when necessary."
+    },
+    {
+        "query": "Who sets minimum degree requirements for graduate programs and what role do individual programs play?",
+        "answer": "The Laney Graduate School (LGS) sets minimum degree requirements, but individual programs may establish additional or stricter requirements beyond these minimums."
+    },
+    {
+        "query": "Where should students look to find specific program requirements beyond LGS minimums?",
+        "answer": "Students should consult three sources: program handbooks, Program Directors (PDs), and directors of graduate studies to obtain detailed information about specific program requirements."
+    },
+    {
+        "query": "What are the two types of enrollment status for students in the LGS?",
+        "answer": "Students in the LGS can be enrolled in two forms: 1) Degree-Seeking students who are enrolled in courses intending to earn a Doctorate, master's degree, or certificate, and 2) Non-Degree-Seeking students who take courses for personal or professional academic benefits but not to earn a degree."
+    },
+    {
+        "query": "What is the process for course registration in LGS and what happens if a student doesn't maintain continuous enrollment?",
+        "answer": "Continuing degree-seeking students can register via OPUS (the university registration system) and receive email instructions before pre-registration dates. Students must maintain continuous enrollment by registering each term. If a student fails to register for one or more terms or withdraws from all courses after registering, they become inactive and must apply for readmission. Before registering, students should consult their advisor and check program-specific requirements with program staff."
+    },
+    {
+        "query": "What are the main requirements and limitations for transfer credits at Emory's Laney Graduate School?",
+        "answer": "At LGS, transfer credits are limited to 9 hours maximum from an accredited institution, must be earned within seven years, and cannot have been applied toward another conferred degree. The Director of Graduate Studies (DGS) or Program Director must submit a written request, confirm the credits aren't counted toward another degree, and indicate equivalent Emory courses. Transfer requests exceeding 9 hours require strong justification and Dean's approval."
+    },
+    {
+        "query": "What additional requirements may be imposed on students with older degrees or deficiencies?",
+        "answer": "Students whose prior degrees were conferred eight or more years before admission, or those admitted with general or specific deficiencies, may be required to complete additional requirements. These requirements will be discussed with the student by the Director of Graduate Studies (DGS) or Program Director."
+    },
+    {
+        "query": "What is the process for transferring between LGS degree programs at Emory?",
+        "answer": "To transfer between LGS programs, a student must submit a Request for Program Transfer form (available on the LGS website) to the DGS or PD of both programs. No new application or fees are required. The transfer must be approved by both the graduate program and the LGS Dean. The new program's DGS will determine how many credits (up to 18 hours maximum) can transfer from the prior program. Additional course requirements may be prescribed by the new program."
+    },
+    {
+        "query": "What special considerations must international students and veterans make when transferring LGS programs?",
+        "answer": "International students must consult with the International Student and Scholar Services office about any necessary I-20 adjustments. Veterans must notify the Office of the Registrar at registr@emory.edu about their program transfer."
+    },
+    {
+        "query": "What requirements are there for non-native English speaking students when they enter LGS?",
+        "answer": "Newly admitted LGS students who indicated English is not their first language must either take oral and written Emory-specific language proficiency assessments or request an exemption from the ELSP. These assessments occur in August before the Fall Term begins."
+    },
+    {
+        "query": "How is ELSP coursework structured and graded?",
+        "answer": "ELSP coursework is for credit, graded on a Satisfactory/Unsatisfactory basis, and appears on students' official transcripts. It is required during the first year for students with intermediate-level language proficiency or less, while other students can enroll to further advance their English communication skills based on their assessment results."
+    },
+    {
+        "query": "What is the primary purpose of the Doctor of Philosophy (PhD) degree program?",
+        "answer": "The PhD program provides education for a research or scholarly inquiry career. The degree is awarded to students who can produce original scholarship and demonstrate promise as an authority in their chosen field, rather than simply fulfilling specific requirements."
+    },
+    {
+        "query": "What are the key requirements for obtaining a PhD degree according to the handbook?",
+        "answer": "The key requirements include: 1) completing a program of study covering coherently related fields, 2) investigating a research problem in the major field of study, 3) completing the LGS TA Training and Teaching Opportunity (TATTO) program, and 4) completing the Jones Program in Ethics (JPE)."
+    },
+    {
+        "query": "What is the maximum time limit to complete all PhD degree requirements at LGS?",
+        "answer": "All degree requirements, including dissertation submission to the LGS, must be completed within nine years of admission."
+    },
+    {
+        "query": "Can individual programs set additional requirements beyond the basic PhD requirements?",
+        "answer": "Yes, individual programs and divisions may specify additional and more stringent requirements beyond the basic requirements for the PhD degree."
+    },
+    {
+        "query": "What is TATTO and when was it established at Emory?",
+        "answer": "TATTO (TA Training and Teaching Opportunity) program was inaugurated by the LGS in 1991. It was designed to prepare PhD students to be competent and confident instructors in various settings, including college and university classrooms."
+    },
+    {
+        "query": "What are the two distinctive characteristics of Emory's TATTO program compared to other universities' TA preparation programs?",
+        "answer": "Emory's TATTO program has two distinguishing characteristics: 1) It is a degree requirement across the Laney Graduate School (LGS), and 2) It is a scaffolded experience involving several stages."
+    },
+    {
+        "query": "Is TATTO mandatory for Emory PhD students, and what additional requirement exists for paid TAs?",
+        "answer": "Yes, TATTO is mandatory for all students pursuing an Emory PhD. Additionally, any student who accepts a paid TA appointment must specifically complete TATTO 600. Exemption requests can be submitted to the Dean of Professional Development and Career Planning."
+    },
+    {
+        "query": "What is the Jones Program in Ethics (JPE) and who is it required for?",
+        "answer": "The Jones Program in Ethics (JPE) is a required program for all Ph.D. students in the LGS that provides broad and deep engagement with ethical issues related to research, scholarship, and professional life. It takes place in interdisciplinary forums and within the student's graduate program."
+    },
+    {
+        "query": "How is the ethics engagement structured in the JPE program?",
+        "answer": "The ethics engagement in the JPE program is structured to cover areas relevant to the student's specific course of study and is appropriately staged throughout their career. It occurs both in broad interdisciplinary forums and within the student's graduate program."
+    },
+    {
+        "query": "What is the purpose of doctoral examinations and who administers them?",
+        "answer": "Doctoral examinations determine a student's qualifications for advanced study and mastery of their field of specialization. They verify adequate intellectual knowledge in the student's area and supporting fields. These examinations are typically prepared and administered by the program or division of specialization, who also determines the schedule. If the field of study spans multiple programs, the LGS Dean may appoint a committee to prepare and administer the examination."
+    },
+    {
+        "query": "What are the key requirements regarding the PhD dissertation and its submission?",
+        "answer": "The dissertation must demonstrate the student's mastery of research methods, potential for productive scholarship, and promise as a subject authority. It must either contribute new knowledge or provide a significant new interpretation of existing knowledge. The dissertation must be approved by the candidate's adviser and dissertation committee, then submitted to the LGS Dean within nine years of admission. The dissertation is only considered complete after the Dean's approval, and submission deadlines are specified in the LGS Academic Calendar."
+    },
+    {
+        "query": "Is a final oral examination or dissertation defense required for PhD programs?",
+        "answer": "Most PhD programs require a final oral examination or defense of the dissertation, but students should check with their specific program and advisers for program-specific requirements."
+    },
+    {
+        "query": "Who should students consult about final oral examination requirements?",
+        "answer": "Students should consult their program regulations and advisers to learn about program-specific requirements regarding the final oral examination."
+    },
+    {
+        "query": "What does PhD candidacy status signify and when should students apply for it?",
+        "answer": "PhD candidacy status indicates that a doctoral student has developed sufficient mastery of their discipline to produce original research in their field. Students should apply for candidacy after completing the program's preliminary degree requirements."
+    },
+    {
+        "query": "What are the potential consequences of not applying for PhD candidacy at the appropriate time?",
+        "answer": "Failing to apply for candidacy at the appropriate time can result in probation, delay fellowship continuation, and potentially delay graduation. Additionally, students cannot apply for candidacy and graduate in the same term."
+    },
+    {
+        "query": "What are the requirements for PhD candidacy admission at Emory's Laney Graduate School?",
+        "answer": "There are 7 key requirements for PhD candidacy admission: 1) Complete all program-specific coursework and training including JPE, 2) Complete required qualifying examinations, 3) Obtain approval of dissertation prospectus if required by program, 4) Complete TATTO 600, TATTO 605, and JPE 600, 5) Resolve any Incomplete or In Progress grades, 6) Maintain minimum 2.70 cumulative GPA, 7) Earn at least 54 credit hours at 500 level or above."
+    },
+    {
+        "query": "What happens if a student doesn't reach candidacy by the deadline?",
+        "answer": "Students must reach candidacy by September 15 of their fourth year. If they miss this deadline, they will be placed on academic probation for the Spring term. While on probation, students are not eligible for Professional Development Support Funds (PDS funds) and may forfeit financial support. A probation notation (P#CA) will appear on their unofficial transcript and remain until candidacy is reached or a milestone extension request is submitted by their DGS. These probation notations cannot be removed."
+    },
+    {
+        "query": "When must PhD students submit their dissertation committee form to LGS and what happens if they miss this deadline?",
+        "answer": "PhD students must submit their program-approved dissertation committee form to LGS by March 15 of their fourth year. If students miss this deadline, they will be placed on academic probation the following term (Summer). Students on probation become ineligible for PDS funds and may forfeit financial support."
+    },
+    {
+        "query": "What does the probation notation 'P#DC' mean and can it be removed from a student's transcript?",
+        "answer": "The probation notation 'P#DC' indicates probationary status where '#' represents the consecutive terms of being on probation and 'DC' represents Dissertation Committee. This notation will remain on the unofficial transcript and carry over each term until either the dissertation committee form is submitted or a DGS submits a milestone extension request form. Probation notations cannot be removed from the transcript."
+    },
+    {
+        "query": "What are the requirements for LGS faculty membership on PhD committees?",
+        "answer": "The LGS requires at least three committee members to belong to the LGS faculty. While Emory faculty who are not LGS faculty may serve on a committee, they do not count toward the three LGS faculty requirement."
+    },
+    {
+        "query": "What is the process for adding non-Emory scholars to a PhD committee?",
+        "answer": "To add non-Emory scholars to a PhD committee: 1) The DGS or division director must write a memo to the LGS Dean requesting approval and explaining the individual's potential contribution; 2) After receiving the Dean's approval, the student must submit the written request as part of the dissertation committee approval form."
+    },
+    {
+        "query": "What is required when making changes to a PhD dissertation committee?",
+        "answer": "Students must submit a change of dissertation committee form as soon as possible when changes to the committee membership are needed."
+    },
+    {
+        "query": "When submitting a completed dissertation, what must be true about the committee membership?",
+        "answer": "The committee membership must match the members listed on the most recent dissertation committee form that was submitted and approved by the LGS."
+    },
+    {
+        "query": "When should an extension be requested for a Chair/Advisor of a PhD Dissertation Committee?",
+        "answer": "An extension should be requested when an LGS faculty member who has served as Chair/Advisor for one year following a change to their affiliation or location as LGS Graduate Faculty wants to continue serving in that role for a limited extended period."
+    },
+    {
+        "query": "What conditions must be met before requesting an extension for a Dissertation Committee Chair/Advisor?",
+        "answer": "The faculty member must have: 1) Been an LGS Graduate Faculty member, 2) Had a change in their affiliation or location, 3) Served as Chair/Advisor for one year following that change, and 4) Wish to continue serving in that role for a limited extended period."
+    },
+    {
+        "query": "What should a PhD student do if a dissertation committee member leaves Emory or retires?",
+        "answer": "The student should consult with their advisor and Director of Graduate Studies (DGS) or Program Director (PD) for guidance on how to proceed with the composition of their committee."
+    },
+    {
+        "query": "Why is it important to address changes in dissertation committee membership when a faculty member leaves or retires?",
+        "answer": "This action ensures the student has the support and guidance necessary to complete the dissertation project."
+    },
+    {
+        "query": "What are the rules for faculty who move from Emory to another institution regarding their continued service on dissertation committees?",
+        "answer": "Faculty members who leave Emory for another institution may continue to serve as one of the three required LGS faculty members on a dissertation committee if the committee was formed before their departure. This arrangement can continue for up to three years after leaving. In extraordinary circumstances, the DGS or PD can petition the Dean to extend this time limit on the student's behalf."
+    },
+    {
+        "query": "How long can retired Emory professors continue to serve as LGS faculty members on dissertation committees?",
+        "answer": "Retired Professors affiliated with an Emory doctoral program can continue to serve as LGS faculty members on dissertation committees for five years after retirement. After the five-year period, they may still serve as committee members but will no longer count as one of the three required LGS faculty members."
+    },
+    {
+        "query": "What are the rules for faculty members who move from Emory to another institution regarding their role as dissertation committee co-chairs?",
+        "answer": "Faculty members who move from Emory to another institution can continue serving as co-chair/co-advisor for up to three years after departure. They will count as one of the three required LGS faculty members during this period, provided the other co-chair/co-advisor is an LGS faculty member. If the other co-chair is not an LGS faculty member, the committee must be reconstituted to include a current LGS faculty member as co-chair."
+    },
+    {
+        "query": "What are the rules for retired Emory professors serving as dissertation committee co-chairs?",
+        "answer": "Retired Professors affiliated with an Emory doctoral program can continue to serve as co-chairs/co-advisors and count as LGS faculty for five years after retirement. After the five-year period, they may continue serving as co-chair/co-advisor but will no longer count as one of the three required LGS faculty members."
+    },
+    {
+        "query": "What happens if a dissertation committee chair/advisor leaves Emory for another institution?",
+        "answer": "If a faculty member serving as chair/advisor leaves Emory for another institution, they may continue serving as chair/advisor as one of the three LGS faculty members if the student completes the dissertation within one year of their departure. If the student doesn't complete within one year, the faculty member can continue as co-chair/co-advisor with a current LGS faculty member for up to three years after departure."
+    },
+    {
+        "query": "How does retirement affect a professor's ability to serve as dissertation committee chair/advisor?",
+        "answer": "Retired professors can continue serving as chair/advisor as one of the three LGS faculty members if the student completes the dissertation within one year of retirement. If completion extends beyond one year, they may serve as co-chair/co-advisor with a current LGS faculty member for up to five years after retirement."
+    },
+    {
+        "query": "How can a program request an extension for a departed or retired faculty member serving on a dissertation committee?",
+        "answer": "The program DGS must submit a written request to the LGS Sr. Associate Dean. The request should include: 1) a list of all committee members and their roles, 2) length of time as members, 3) the faculty member's expertise in the dissertation topic, 4) reason for extension, and 5) proposed end date for the extension. Additional details can be found on the LGS Dissertation Committee webpage."
+    },
+    {
+        "query": "What is the expected timeframe for completing a PhD dissertation according to LGS policy?",
+        "answer": "LGS expects students to complete their dissertations and apply for graduation within six years."
+    },
+    {
+        "query": "What happens if a student needs to extend their PhD completion time beyond 6 years?",
+        "answer": "Programs may grant a one-year degree extension (to year 7) without LGS approval. Extensions beyond the 7th year require LGS approval, including submission of a milestone extension request form and a program-approved detailed timeline for completion. Note that approved degree extensions do not include guaranteed LGS funding."
+    },
+    {
+        "query": "What are the key requirements of the TATTO program for PhD students at Emory?",
+        "answer": "The TATTO program consists of four stages that provide teaching foundation and experience with increasing responsibility. Students must complete TATTO 600 and 605 before applying for candidacy. Generally, students can teach up to five terms in any combination of TA and Associate positions during their first five years at Emory."
+    },
+    {
+        "query": "What teaching limitations exist for PhD students in the TATTO program?",
+        "answer": "PhD students are typically limited to teaching up to five terms in any combination of Teaching Assistant (TA) and Associate positions during their first five years at Emory."
+    },
+    {
+        "query": "What is TATTO 600 and what is its significance in Emory's teaching program?",
+        "answer": "TATTO 600 is a one-credit hour course offered in the Fall Pre-term that serves as the first stage of the TATTO program. It is a prerequisite for any teaching assistantship at Emory, including TATTO 605, TATTO 610, or any paid TA position. The course is graded on a satisfactory/unsatisfactory basis and should be taken immediately before a student's first teaching experience."
+    },
+    {
+        "query": "What topics are covered in the TATTO 600 syllabus?",
+        "answer": "The TATTO 600 syllabus covers various topics essential for teaching, including inclusive pedagogy, lesson planning and assessment, online pedagogical tools, classroom and lab instruction, accessibility, and other teaching responsibilities. The course is taught by faculty from diverse fields who are committed to excellence in teaching and research."
+    },
+    {
+        "query": "What is the second stage of the teaching course program and when should students ideally take it?",
+        "answer": "In the second stage, students take a program-based course focused on teaching strategies specific to their discipline. Students should optimally enroll in this course while they are registered for TATTO 605, the teaching assistantship."
+    },
+    {
+        "query": "What is the main focus of the program-based teaching course?",
+        "answer": "The program-based course focuses on teaching strategies from the perspective of the student's specific discipline."
+    },
+    {
+        "query": "What is TATTO 605 and what type of assistantship is it?",
+        "answer": "TATTO 605 is the third stage of the TATTO program and is a non-financially compensated, closely mentored teaching assistantship."
+    },
+    {
+        "query": "What are the expectations for faculty mentors during TATTO 605?",
+        "answer": "Faculty mentors should provide continuous guidance and evaluation of the TA throughout the term of the teaching assistantship. They also work with the program to determine the specific responsibilities of the assistantship."
+    },
+    {
+        "query": "What is TATTO 610 and what does it involve?",
+        "answer": "TATTO 610 is the fourth stage of the TATTO program, known as the Teaching Associateship. It's an advanced teaching opportunity where students typically either co-teach with a faculty member (collaborating on everything from syllabus design to final grading) or teach their own designed course. In all cases, students receive mentoring and evaluation. Students must register for TATTO 610 during the term of their Teaching Associateship position."
+    },
+    {
+        "query": "What teaching model does the LGS prefer for TATTO 610?",
+        "answer": "The LGS (Laney Graduate School) favors a co-teaching model for TATTO 610, where the student and faculty member collaborate together on all aspects of a course, including syllabus design and final grading."
+    },
+    {
+        "query": "What are the eligibility requirements for the Dean's Teaching Fellowship?",
+        "answer": "To be eligible for the Dean's Teaching Fellowship, students must have completed all LGS and program requirements (except the dissertation), been admitted to Ph.D. candidacy, and demonstrate exceptional teaching ability."
+    },
+    {
+        "query": "What responsibilities and opportunities come with the Dean's Teaching Fellowship?",
+        "answer": "Dean's Teaching Fellows have complete responsibility for teaching their own course. These are merit-based fellowships offered competitively by LGS, typically to students in their sixth year."
+    },
+    {
+        "query": "How can a student get exempted from TATTO 600?",
+        "answer": "A student can be exempted from TATTO 600 if they have equivalent hours of formal teaching assistance experience. The student's DGS must submit a written request for exemption to the Assistant Dean of Professional Development and Career Planning, outlining the student's teaching experience. The exemption may be granted if the prior experience matches the TATTO requirement in both intellectual scope and duration."
+    },
+    {
+        "query": "How is TATTO credit documented on a student's record?",
+        "answer": "TATTO credit is noted on student transcripts by the Registrar as documentation of fulfilling this degree requirement."
+    },
+    {
+        "query": "What are the key differences between a TA and Teaching Associate position in the TATTO program?",
+        "answer": "A TA position is typically an initial mentored teaching experience involving 10-12 hours per week of discussion or laboratory supervision. In contrast, a Teaching Associate position is more advanced, offering more significant learning experiences that may include co-teaching with faculty, collaborating on course design including syllabus creation and grading, or teaching an entire class with ongoing mentoring."
+    },
+    {
+        "query": "What are the limitations on teaching terms and requirements for being an instructor of record?",
+        "answer": "Students can only serve as a TA or teaching associate for up to five terms during their first five years at Emory, requiring approval from the Assistant Dean of Professional Development and Career Planning. To teach additional terms, students must submit a letter of request to the Dean. Additionally, to be an instructor of record for a course, students must have completed at least 18 hours of graduate credit in their teaching field, as per Southern Association of Colleges and Schools recommendations."
+    },
+    {
+        "query": "What is the purpose of the Jones Program in Ethics (JPE) for PhD students?",
+        "answer": "The Jones Program in Ethics (JPE) provides PhD students in the LGS with broad and deep engagement with ethical issues related to research, scholarship, and professional life. It takes place in both interdisciplinary forums and within the student's graduate program."
+    },
+    {
+        "query": "How is the ethics engagement structured in the Jones Program in Ethics?",
+        "answer": "The ethics engagement is structured to be relevant to each student's specific course of study and is appropriately staged throughout their academic career. It occurs in both broad interdisciplinary forums and within the context of the student's own graduate program."
+    },
+    {
+        "query": "What are the three main elements of the Jones Program in Ethics (JPE) for PhD students and when must they be completed?",
+        "answer": "The three elements are: 1) JPE 600: A 6-hour course in scholarly integrity (required for candidacy), 2) Program-based training: At least 6 hours of program-based ethics material (required for candidacy), and 3) JPE 610: Participation in at least 4 JPE 610 sessions (required for graduation)."
+    },
+    {
+        "query": "What are the specific requirements for the JPE 600 course?",
+        "answer": "JPE 600 is a 6-hour course in scholarly integrity that incoming first-year graduate students must take. It is graded Satisfactory/Unsatisfactory and has no associated credit hours, but completion is a graduation requirement. Students should consult their Program Administrators about registration timing. The course participation is recorded on the student's transcript."
+    },
+    {
+        "query": "How is the program-based training element of JPE structured and documented?",
+        "answer": "The program-based training requires at least 6 hours of ethics material training, with the format determined by the program. It can be integrated into existing courses, methodology classes, professionalization courses, or conducted through faculty-led workshops or journal clubs. Student participation is monitored by their program, and completion must be indicated on the candidacy form."
+    },
+    {
+        "query": "How is the completion of JPE requirements documented for PhD students?",
+        "answer": "The Registrar notes participation in JPE 600 (1 section) and JPE 610 (4 sections) on each student's transcript, which signifies fulfillment of the degree requirement."
+    },
+    {
+        "query": "What are the specific section requirements for JPE credits in the PhD Jones Program in Ethics?",
+        "answer": "Students must complete 1 section of JPE 600 and 4 sections of JPE 610."
+    },
+    {
+        "query": "Can students admitted to terminal master's programs at Emory automatically transition to doctoral programs?",
+        "answer": "No, students admitted to terminal master's degree programs at Emory must submit a complete application to the Ph.D. program if they wish to pursue doctoral studies."
+    },
+    {
+        "query": "How does financial support and health insurance coverage differ between master's and doctoral students at Emory?",
+        "answer": "Unlike full-time doctoral students, master's students receive limited financial support. While they can enroll in the Emory University Student Health Insurance Plan (EUSHIP), they must pay for their health insurance premium and all student fees themselves."
+    },
+    {
+        "query": "What are the two types of master's degrees offered by LGS and how do they differ?",
+        "answer": "LGS offers two types of master's degrees: 1) An interim master's degree, which serves as an intermediate step for students pursuing a Ph.D., and 2) A terminal master's degree, which is a standalone degree for students specializing in a field without pursuing a Ph.D. The terminal master's degree can also serve as an exit point for Ph.D. students who choose to discontinue their graduate studies."
+    },
+    {
+        "query": "What should Ph.D. students know about master's degree options in their program?",
+        "answer": "Ph.D. students should discuss both master's degree options (interim and terminal) with their program's Director of Graduate Studies (DGS), as the requirements for both types of degrees can vary depending on the specific program."
+    },
+    {
+        "query": "What are the minimum credit hour requirements for a master's degree according to the LGS?",
+        "answer": "The minimum requirement is satisfactory completion of at least 30 credit hours, with at least 15 credit hours in courses or seminars (excluding Directed Study 597 and Research 599). Additionally, at least 11 credit hours must be at the 500 or 700 levels."
+    },
+    {
+        "query": "What are the grade and course level restrictions for master's degree credits?",
+        "answer": "Students must earn a B- or better grade in at least 11 credit hours of courses. Courses at the 100 or 200 level do not count towards a master's degree."
+    },
+    {
+        "query": "What additional requirement applies specifically to terminal master's degrees?",
+        "answer": "Terminal master's degrees specifically require a written thesis, subject to limitations described in Section 3.2."
+    },
+    {
+        "query": "What are the requirements for changing or adding requirements to a terminal master's program?",
+        "answer": "Programs must seek approval from the LGS Executive Council to substitute alternatives for the written thesis or to add additional degree requirements. Additional requirements (such as extra credit hours, courses, examinations, foreign language, or research skills) must be relevant to the student's course of study. The written thesis is the only minimum degree requirement that can be changed."
+    },
+    {
+        "query": "What are the key requirements for submitting a master's thesis?",
+        "answer": "A thesis must be approved by the student's advisory committee (which requires two members of the LGS graduate faculty) before submission to LGS. The thesis is then reviewed by the LGS Dean and must be submitted by the deadline listed in the academic calendar. Students must be registered during the term they receive their degree, and the program must certify all degree requirements are complete before the Dean accepts the thesis."
+    },
+    {
+        "query": "What are the requirements for doctoral students seeking a terminal master's degree at Emory after discontinuing their Ph.D.?",
+        "answer": "Doctoral students must request approval for a change to terminal master's degree status before the degree application deadline for the term in which they seek to receive the degree. The request must be submitted for the specific term they plan to graduate."
+    },
+    {
+        "query": "What financial implications should doctoral students be aware of if their terminal master's degree extends beyond the initially approved term?",
+        "answer": "If the terminal master's degree completion extends beyond the approved term, students may receive a tuition scholarship but will not receive a stipend or student health insurance. Students will be responsible for paying the EUSHIP premium and all student fees themselves."
+    },
+    {
+        "query": "What is required to earn a master's degree based on doctoral candidacy?",
+        "answer": "To earn a master's degree based on candidacy, students must: 1) Be in a program that allows this option (not all do), 2) Meet all LGS and program requirements for the master's degree (except thesis), 3) Submit a Completion Form to LGS, and 4) Apply immediately upon reaching eligibility, as it cannot be awarded retroactively after completing the Ph.D."
+    },
+    {
+        "query": "Can a student receive a master's degree based on candidacy after completing their Ph.D.?",
+        "answer": "No, LGS will not award a master's degree based on candidacy retroactively after a student has completed their Ph.D. Students must apply for the master's degree immediately when they become eligible."
+    },
+    {
+        "query": "What is the maximum time limit to complete a terminal master's degree, and what happens if this limit is exceeded?",
+        "answer": "The maximum time limit is five years from admission. If students don't complete within five years, programs can grant a one-year extension without LGS approval. Extensions beyond the 6th year require LGS approval and submission of a milestone extension request form with a detailed timeline. Students who fail to obtain an extension or complete requirements within the extended time will lose their active degree-seeking status."
+    },
+    {
+        "query": "What is required for a degree extension request beyond the 6th year?",
+        "answer": "For degree extensions beyond the 6th year, students must submit two items to LGS: 1) a milestone extension request form, and 2) a program-approved detailed timeline for completion."
+    },
+    {
+        "query": "What is the purpose of graduate certificate programs?",
+        "answer": "Graduate certificate programs provide graduate students with interdisciplinary expertise, enhance student education and research, and expand students' professional competencies."
+    },
+    {
+        "query": "What should students do if they are interested in pursuing a Graduate Certificate?",
+        "answer": "Students interested in a Graduate Certificate should consult the Certificate PD (Program Director) about eligibility criteria and requirements. Additional information about active certificate programs can be found on the LGS website."
+    },
+    {
+        "query": "What form needs to be submitted when declaring a graduate certificate?",
+        "answer": "Students need to submit a Certificate Declaration Form to LGS, which can be found on the LGS website."
+    },
+    {
+        "query": "When should students submit the Certificate Declaration Form?",
+        "answer": "Students should submit the Certificate Declaration Form once they have been accepted to their desired certificate program."
+    },
+    {
+        "query": "How many credits can be shared between two graduate certificate programs?",
+        "answer": "Up to three credits may be counted toward two certificates."
+    },
+    {
+        "query": "Can transfer credits be used to fulfill graduate certificate requirements?",
+        "answer": "No, transfer credits may not be applied toward certificate requirements."
+    },
+    {
+        "query": "For students enrolled in a degree program, how many credits from their home program can count toward a certificate?",
+        "answer": "Up to three credits from a student's home program may be counted toward any certification, as certificates are intended to enhance interdisciplinary education."
+    },
+    {
+        "query": "What are the basic requirements for completing a graduate certificate program?",
+        "answer": "A graduate certificate program requires at least 12 credits of course study at the 500 to 700 level. Programs must also include additional requirements that make the study systematic and cohesive, such as required core courses, exams, projects, or practicum. Upon completion, students must submit a Certificate Clearance Form."
+    },
+    {
+        "query": "How are graduate certificates awarded and documented at the institution?",
+        "answer": "Graduate certificates are not awarded as paper certificates but are instead notated on student transcripts. If a student is earning both a degree and a certificate, they must complete an Application for a Degree for both the dissertation and the certificate to ensure the certificate appears on the transcript. The only exception is for students in the Translational Research certificate program who are not enrolled in an Emory Ph.D. program."
+    },
+    {
+        "query": "What section number covers Dual and Joint Degrees in the PhD handbook?",
+        "answer": "Section 5 covers Dual and Joint Degrees."
+    },
+    {
+        "query": "Where can I find information about pursuing multiple degrees simultaneously in the PhD handbook?",
+        "answer": "You can find this information in Section 5, which discusses Dual and Joint Degrees."
+    },
+    {
+        "query": "What is the maximum percentage of credit hours that can be double-counted in a dual degree program at LGS?",
+        "answer": "The LGS allows a maximum of 20% of credit hours to be double-counted or exchanged toward a dual degree."
+    },
+    {
+        "query": "In a master's degree program with 30 credit hours, how many credits can be double counted with another degree?",
+        "answer": "In a 30 credit hour master's degree program, a maximum of 6 credit hours may be double counted with the other degree."
+    },
+    {
+        "query": "What are the key characteristics of joint degrees?",
+        "answer": "Joint degrees are typically pursued in a mixed curriculum and awarded together."
+    },
+    {
+        "query": "How is the curriculum structured in joint degree programs?",
+        "answer": "Joint degrees follow a mixed curriculum approach where the degrees are awarded together."
+    },
+    {
+        "query": "What are 4+1 dual degrees at Emory and who can pursue them?",
+        "answer": "4+1 dual degrees are programs available to Emory College of Arts and Sciences (ECAS) baccalaureate students that bridge the undergraduate senior year with a fifth year of graduate study in the Laney Graduate School (LGS), leading to a master's degree."
+    },
+    {
+        "query": "How long does it take to complete a 4+1 dual degree program at Emory?",
+        "answer": "The program bridges the undergraduate senior year with an additional fifth ('+1') year of graduate study, effectively allowing students to complete both their undergraduate degree and master's degree in a total of five years."
+    },
+    {
+        "query": "What is the timeline and process for applying to Emory's Four-Year Bachelor's/Master's Programs?",
+        "answer": "Students must submit a Four-Year Bachelor's/Master's Application for Admission during the spring semester of their junior year (before commencement), along with a departmental recommendation letter. The Laney Graduate School will only recognize students as dual-degree students if these requirements are completed before the deadline."
+    },
+    {
+        "query": "Who is eligible for Emory's Four-Year Bachelor's/Master's Programs?",
+        "answer": "Exceptional Emory College of Arts and Sciences (ECAS) students with superior undergraduate records may be eligible. Individual ECAS departments reserve the option of offering such programs and selecting students for participation. Interested students should consult their departments as early as possible for details."
+    },
+    {
+        "query": "What are the two possible registration statuses for PhD students?",
+        "answer": "The two registration statuses are Active and Inactive."
+    },
+    {
+        "query": "What defines an 'Active' registration status?",
+        "answer": "An Active status means a student is currently enrolled in any course or program for which they are registered."
+    },
+    {
+        "query": "Under what circumstances does a student become 'Inactive'?",
+        "answer": "A student becomes Inactive when they are not currently enrolled in any course or program, when they fail to maintain continuous enrollment each term, or when they are on an approved leave of absence."
+    },
+    {
+        "query": "How can an Inactive student return to Active status?",
+        "answer": "To return to active status, a student must apply for readmission."
+    },
+    {
+        "query": "What is the process for readmission to a graduate program after becoming inactive?",
+        "answer": "The readmission process involves three main steps: 1) Contacting the program's Director of Graduate Studies (DGS), 2) Submitting a readmission form on the LGS website, and 3) Obtaining approval from the program. Applications must be submitted at least 30 days before the intended re-registration term. The program has discretion in approving readmission and may require additional coursework."
+    },
+    {
+        "query": "What factors are considered for readmission approval and who cannot be readmitted?",
+        "answer": "Readmission consideration includes reviewing the student's academic standing, their pre-approved plan for return, and their academic progress from their last registered term, including any incomplete grades that converted to F or U during absence. Students who have exceeded the nine-year enrollment limit on time to degree cannot be readmitted. Students with enrollment holds must resolve them before applying for readmission."
+    },
+    {
+        "query": "What is the readmission process requirement for non-degree seeking students who have not been enrolled for one or more terms?",
+        "answer": "Non-degree seeking students who have not been enrolled for one or more terms must apply for readmission by completing the online process at least 30 days before enrollment."
+    },
+    {
+        "query": "How many days before enrollment must a non-degree seeking student submit their readmission application?",
+        "answer": "The readmission application must be submitted at least 30 days before enrollment."
+    },
+    {
+        "query": "What are academic expectations and why are they important for PhD students?",
+        "answer": "Academic expectations are standards and goals set to achieve success in an academic program. They are important because students need to understand these performance expectations to maintain satisfactory progress as defined by their academic program and LGS."
+    },
+    {
+        "query": "Through what methods are academic performance expectations typically communicated to students?",
+        "answer": "Performance expectations can be communicated through multiple channels, including: course syllabi, program handbooks, faculty expectations, academic and research integrity standards, and academic milestones. Additionally, direct communication between students and faculty is critical for achieving satisfactory grades in courses."
+    },
+    {
+        "query": "What grade points are assigned to an A and B+ grade in the LGS grading system?",
+        "answer": "In the LGS grading system, an A grade is worth 4.0 quality points, while a B+ grade is worth 3.3 quality points."
+    },
+    {
+        "query": "Which grades are not included in calculating a student's grade point average?",
+        "answer": "The grades that are not included in GPA calculations are S (Satisfactory), U (Unsatisfactory), W (Withdrawal without penalty), WU (Withdrawal while performing unsatisfactorily), IP (In progress), I (Incomplete), and AUD (Audit)."
+    },
+    {
+        "query": "What are the two types of tentative status notations that can be given for courses, and how do they differ?",
+        "answer": "The two tentative status notations are: 1) I (incomplete) - given when a student fails to complete course requirements by term end due to illness or unforeseen circumstances, and 2) IP (in progress) - which can only be used for courses running two consecutive terms and requires LGS approval for sequential courses. IP grades cannot be assigned to 599R or 799R courses and are not appropriate for single-term courses."
+    },
+    {
+        "query": "What grades are not counted toward degree or credit hour requirements?",
+        "answer": "The grades of F, IF U, W, WF, WU, IP, I, or IU are not counted toward degree or credit hour requirements."
+    },
+    {
+        "query": "What must be resolved before candidacy and graduation regarding course status notations?",
+        "answer": "A student must resolve all incomplete (I) or in-progress (IP) courses before candidacy and graduation."
+    },
+    {
+        "query": "What happens if a student does not complete their course assignments within 12 months of receiving an Incomplete (I) grade?",
+        "answer": "If assignments are not completed within one calendar year (12 months), the Laney Graduate School (LGS) will change the grade from I to IF or IU (depending on the grading basis). These grades are considered unsatisfactory and will result in academic probation."
+    },
+    {
+        "query": "Can a grade of IF or IU be changed after it becomes final?",
+        "answer": "Yes, but only through a specific process. The instructor must submit a request to the LGS citing compelling reasons for the grade change. The final approval for such changes comes from the Emory Registrar."
+    },
+    {
+        "query": "What defines unsatisfactory academic performance according to the Laney Graduate School's minimum standards?",
+        "answer": "According to LGS standards, unsatisfactory academic performance is defined by any of these conditions: 1) A cumulative GPA below 2.7, 2) A term GPA below 2.7, 3) Receiving a grade of F, U, IF, or IU in any course, 4) Receiving two or more incompletes in one term, 5) Having two total unresolved incomplete grades on record, or 6) Receiving an incomplete in a 9-credit hour course."
+    },
+    {
+        "query": "What is the minimum GPA requirement to maintain satisfactory academic standing in the Laney Graduate School?",
+        "answer": "Students must maintain a GPA of 2.7 or higher, both cumulatively and in each individual term, to meet the minimum academic standards of the Laney Graduate School. However, individual programs may set higher GPA requirements."
+    },
+    {
+        "query": "What happens when a student has unsatisfactory academic performance?",
+        "answer": "A student with unsatisfactory academic performance is placed on probation for one term."
+    },
+    {
+        "query": "Who should students consult about probation terms and conditions?",
+        "answer": "Students should discuss program terms and conditions of probation and reinstatement to satisfactory standing with their DGS (Director of Graduate Studies) or PD (Program Director)."
+    },
+    {
+        "query": "Can academic performance expectations vary during probation?",
+        "answer": "Yes, some programs may have more stringent academic performance expectations during the probationary term."
+    },
+    {
+        "query": "How does a student on academic probation return to good standing?",
+        "answer": "Students placed on probation due to unsatisfactory academic progress will automatically return to good standing in the subsequent term."
+    },
+    {
+        "query": "What happens if a student fails to meet academic standards after returning to good standing?",
+        "answer": "If a student fails to meet LGS or program standards for satisfactory performance in the term following their return to good standing, they will be placed on probation for a second term."
+    },
+    {
+        "query": "How long does a probation notation remain on a student's unofficial transcript?",
+        "answer": "A probation notation remains on the unofficial transcript for one term unless there is cause for another probation for a different reason. Probation notations cannot be removed."
+    },
+    {
+        "query": "What are the different probation codes used in academic records and what do they indicate?",
+        "answer": "The probation codes are: P#GR (Grades), P#GP (GPA), P#CA (Candidacy Application Milestone), P#DC (Dissertation Committee Milestone), and P#OT (Other Reason). The # in each code represents the consecutive number of terms on probation."
+    },
+    {
+        "query": "What is required when a student needs to develop an Academic Recovery Plan?",
+        "answer": "The student must work with their director to develop a plan to return to good standing and must consult with the LGS Office of Student Affairs."
+    },
+    {
+        "query": "Who needs to be involved in creating an Academic Recovery Plan?",
+        "answer": "Two parties must be involved: 1) the student and their director, who develop the plan together, and 2) the LGS Office of Student Affairs, who must be consulted."
+    },
+    {
+        "query": "What are the conditions for a student to be considered making satisfactory progress according to LGS?",
+        "answer": "According to LGS, a student is considered to be making progress if they are in good standing and meet one of these conditions: 1) Enroll each term for minimum 9 graded credit hours with GPA \u22652.7, 2) Be in candidacy and have submitted a dissertation/thesis, 3) Be registered in 799R or 599R meeting registration requirements, 4) Have an approved extension period while meeting registration requirements, or 5) Be on an LGS-approved leave of absence."
+    },
+    {
+        "query": "Who is eligible to enroll in course 799R (dissertation research)?",
+        "answer": "Only students who have achieved candidacy status are eligible to enroll in 799R (dissertation research)."
+    },
+    {
+        "query": "Under what circumstances will LGS permanently dismiss a student?",
+        "answer": "LGS will permanently dismiss a student who fails to make satisfactory academic progress and receives three consecutive probationary terms, unless the program provides written justification for continuation. LGS will also consider dismissal for students who receive two consecutive probations or fail to meet other program-specific academic standards."
+    },
+    {
+        "query": "What is the process for appealing an academic dismissal recommendation?",
+        "answer": "Students have 5 business days from the date of the program dismissal letter to inform their DGS and LGS Student Affairs Dean of their intent to appeal. They must then begin and follow their program handbook appeal process within 5 business days of this notification. Programs typically respond to appeals in writing within 30 days. If unresolved at the program level, students may submit a complaint to the LGS Committee on Grievances, though filing a grievance will not delay dismissal action."
+    },
+    {
+        "query": "What is a transcript and who maintains it?",
+        "answer": "A transcript is a permanent and official record of a student's academic performance. It is maintained by the Office of the University Registrar."
+    },
+    {
+        "query": "How can students request copies of their transcripts?",
+        "answer": "Students can request copies of their transcripts in multiple ways: through OPUS, by email, or in person. Transcripts can be provided in either electronic or printed format."
+    },
+    {
+        "query": "What is the first step a student should take if they believe their assigned grade is incorrect?",
+        "answer": "Students should first discuss the assigned grade with the instructor."
+    },
+    {
+        "query": "If a student still disagrees with their grade after speaking with the instructor, what should they do next?",
+        "answer": "Students should address their concerns to the graduate studies or PD (Program Director), who will then try to resolve the matter with both the instructor and the student."
+    },
+    {
+        "query": "Who has the ultimate responsibility for evaluating a student's course performance?",
+        "answer": "Consistent with principles of academic freedom, the instructor has the responsibility for evaluating a student's course performance."
+    },
+    {
+        "query": "Does using the grade appeal procedure affect a student's rights under LGS or University grievance procedures?",
+        "answer": "No, using the grade appeal procedure will not prejudice a student's rights under the LGS or University student grievance procedures."
+    },
+    {
+        "query": "What happens to student records after graduation at Emory University?",
+        "answer": "After students graduate from Emory University, their records are sealed and no further changes are allowed. The only exception is the correction of clerical mistakes, which can be addressed by petitioning the University Registrar."
+    },
+    {
+        "query": "What must students do before their degree conferral date at Emory?",
+        "answer": "Students must fulfill all the academic requirements for their degree before the date of conferral set by the University Registrar's Office, as degree conferral is considered the most important milestone in a student's academic career."
+    },
+    {
+        "query": "What defines a voluntary withdrawal at Emory and what are the initial steps a student should take?",
+        "answer": "A voluntary withdrawal occurs when a student chooses to leave Emory during a term and requests to be withdrawn from all classes after the Add/Drop/Swap deadline. The first step is to consult with the DGS or PD (Director of Graduate Studies or Program Director)."
+    },
+    {
+        "query": "What special considerations must international students and veterans take into account when withdrawing?",
+        "answer": "International students must discuss their withdrawal plans with International Student and Scholar Services to understand the impact on their visa status. Veterans need to contact the Office of the Registrar at registr@emory.edu to ensure their enrollment change doesn't affect their certificate of eligibility."
+    },
+    {
+        "query": "What are the two conditions under which a student may be involuntarily withdrawn from Emory University?",
+        "answer": "A student may be involuntarily withdrawn if they: 1) Engage or threaten to engage in behavior that poses a high probability of substantial harm to themselves or others; or 2) Engage or threaten to engage in behavior that would cause significant property damage, impede others' lawful activities, or interfere with educational process and University operations."
+    },
+    {
+        "query": "What are the academic and financial implications of an involuntary withdrawal, and what may be required for readmission?",
+        "answer": "Involuntary withdrawals typically incur no academic penalty for the enrolled term, and any tuition refund follows the schedule for voluntary withdrawals. However, due to safety concerns, the Dean or their designee may require the student to undergo a re-evaluation before being readmitted to the University."
+    },
+    {
+        "query": "What are the key requirements and limitations for taking a Leave of Absence (LOA) in the PhD program?",
+        "answer": "Students can be granted up to two one-year leaves (maximum six terms) with program recommendation and Dean approval. LOAs are only available within five years of admission. Students must be in good standing with no incomplete assignments in most cases. Time spent on LOA doesn't count toward the nine-year doctoral degree limit or five-year terminal master's limit. Students beyond these limits cannot take LOA but may apply for time extensions. International students must consult with International Student and Scholar Services, and veterans must contact the Office of the Registrar."
+    },
+    {
+        "query": "What are valid reasons for taking a Leave of Absence, and what is the process for returning?",
+        "answer": "Valid reasons for LOA include unique professional or educational circumstances, short-term disabilities, or competing responsibilities that prevent meaningful degree progress. Pregnancy, childbirth, and childcare should first be considered under the Parental Arrangement policy but may also qualify for LOA. Students should develop a written plan and timeline, consult their DGS, Faculty Mentor, and LGS Student Affairs office before requesting LOA. To return, students must request readmission at least 30 days before the beginning of their intended return term. The LOA is not meant to resolve academic difficulties or finish incomplete assignments."
+    },
+    {
+        "query": "What are Parental Arrangements in the LGS program and who are they for?",
+        "answer": "Parental Arrangements are accommodations provided to LGS students who have parental responsibility due to childbirth, care of a newborn, or a newly adopted child. These arrangements ensure students receive minimum level accommodations and academic modifications while welcoming a new child."
+    },
+    {
+        "query": "What steps should graduate students take to arrange parental accommodations?",
+        "answer": "Graduate students should: 1) develop plans with their advisors, 2) discuss arrangements with their DGS or PD (Director of Graduate Studies or Program Director), and 3) consult with the LGS Student Affairs Dean."
+    },
+    {
+        "query": "What is the maximum duration of parental arrangements available to LGS students after birth or adoption of a child?",
+        "answer": "LGS students designated as caregivers can be allowed parental arrangements and academic modifications for up to eight weeks after the birth or adoption of a child, with the option to use up to four weeks before the anticipated birth or adoption date."
+    },
+    {
+        "query": "How are parental arrangement modifications determined for graduate students?",
+        "answer": "Modifications are determined on a case-by-case basis through collaboration between the student, academic program advisor, and the DGS. The arrangements depend on the student's stage of degree progress (coursework, teaching, research) and the nature of their research environment."
+    },
+    {
+        "query": "Who is eligible for parental arrangements at LGS?",
+        "answer": "Any matriculated LGS student who is in good academic standing."
+    },
+    {
+        "query": "What are the requirements to qualify for parental arrangements?",
+        "answer": "There are two requirements: 1) being a matriculated LGS student and 2) maintaining good academic standing."
+    },
+    {
+        "query": "What is the stipend support policy for students during parental arrangements?",
+        "answer": "Eligible students should continue receiving their stipend support throughout parental arrangements. NIH grants can be used for this purpose according to institutional policy. If other federal sponsors don't allow stipend support during this period, LGS Finance will work with faculty and the program to ensure funding is available at Emory."
+    },
+    {
+        "query": "What are the academic expectations for students during the 8-week parental arrangement period?",
+        "answer": "During the eight weeks, students must maintain registration and stay in contact with their advisor. They are expected to engage in minimal academic activity (such as reading) as agreed upon with their advisor, assuming good health of both student and child. After eight weeks, students resume regular responsibilities. Those needing additional arrangements should consult their DGS and LGS Student Affairs Dean."
+    },
+    {
+        "query": "How does a parental arrangement affect a student's enrollment status and benefits?",
+        "answer": "Parental arrangements are not considered a Leave of Absence - students maintain their full-time status and continue to receive all graduate student benefits, including stipend and health insurance."
+    },
+    {
+        "query": "What option is available for students who need more time beyond parental arrangements?",
+        "answer": "Students who need additional time beyond parental arrangements may choose to apply for a Leave of Absence."
+    },
+    {
+        "query": "What academic requirements can be suspended under parental arrangements?",
+        "answer": "Under parental arrangements, students may be relieved of: 1) full-time academic activities, 2) teaching and research assistant duties, 3) official academic examinations (qualifying/preliminary exams), 4) lab and research deadlines, and 5) course activities."
+    },
+    {
+        "query": "How should course conflicts be handled during parental arrangement periods?",
+        "answer": "Scheduled courses or examinations should be rescheduled to avoid conflicts during the parental arrangement period, with reasonable time provided to complete these requirements. If there is excessive coursework to reschedule, the student may need to drop a course and retake it in another term. The program will develop a plan to replace required academic activities, with LGS expecting flexibility in this process."
+    },
+    {
+        "query": "What is the recommended timeline for students to notify their program about parental arrangements?",
+        "answer": "Students should email their program (through DGS/PD, advisor, and LGS) at least three months before the anticipated arrangements, unless unforeseen circumstances arise. This advance notice gives programs adequate time to plan any activities that other students might need to carry out."
+    },
+    {
+        "query": "What steps must students take before submitting a Parental Arrangement Request to LGS?",
+        "answer": "Before submitting the request to LGS, students must discuss the arrangements with their advisors and DGS/PD (Director of Graduate Studies/Program Director). They are also expected to consider the needs of their programs and collaborators when determining when to inform their programs of needed arrangements."
+    },
+    {
+        "query": "What happens if a student fails to meet program, LGS, and University requirements and deadlines when completing their degree?",
+        "answer": "If a student fails to meet all program, LGS, and University requirements and deadlines, they may receive their degree in the following term instead of the intended term."
+    },
+    {
+        "query": "Where can students find information about degree completion deadlines?",
+        "answer": "Students can find degree completion deadlines in two places: the LGS Academic Calendar and the Degree Completion page on the LGS website."
+    },
+    {
+        "query": "What are the registration requirements for students receiving their degrees?",
+        "answer": "Students must be registered full-time during the term in which they receive their degrees. Pre-defense students should enroll in 599R if not in candidacy or 799R if in candidacy. Post-defense students should enroll in the appropriate course to satisfy the requirement. Master's students should enroll in course 599R."
+    },
+    {
+        "query": "What course should Master's students enroll in during their final term?",
+        "answer": "Master's students should enroll in course 599R."
+    },
+    {
+        "query": "What is required for students to be awarded a degree in a particular term?",
+        "answer": "Students must submit a formal Application for a Degree. This can be done either through the form available on the LGS website's Degree Completion page or online through OPUS if the student's record shows the current term as their anticipated graduation term."
+    },
+    {
+        "query": "If a student applies for a degree but doesn't complete all requirements, what must they do?",
+        "answer": "The student must apply again and register full-time for the term in which they will receive the degree, as degree applications are only valid for the term in which they are filed."
+    },
+    {
+        "query": "What is required before submitting the Degree Clearance Form?",
+        "answer": "Before submitting the Degree Clearance Form, students must: 1) resolve all incomplete grades and P and IP grades, 2) upload their theses or dissertations to the Electronic Theses and Dissertations (ETD) Repository, and 3) master's degree students must attach a copy of their transcript to the form."
+    },
+    {
+        "query": "What is the purpose of the Degree Clearance Form?",
+        "answer": "The Degree Clearance Form certifies that the student has completed all requirements for their degree."
+    },
+    {
+        "query": "How are dissertations and theses submitted at the university?",
+        "answer": "All dissertations and theses are submitted electronically through the ETD Repository. The electronic copy submitted becomes the official and archival record copy."
+    },
+    {
+        "query": "What needs to happen before a student can be cleared to graduate regarding their dissertation?",
+        "answer": "The LGS reviews the dissertation, and the Dean must approve it before a student can be cleared to graduate."
+    },
+    {
+        "query": "What surveys must PhD candidates complete before graduating?",
+        "answer": "PhD candidates must complete two online surveys: the LGS Graduate Education Exit Survey and the Survey of Earned Doctorates."
+    },
+    {
+        "query": "What do students need to do with the survey completion certificates?",
+        "answer": "Students should save their survey completion certificates and submit them along with their degree completion form and other required documents."
+    },
+    {
+        "query": "What survey requirements apply to Master's students?",
+        "answer": "Master's students are only required to complete and submit the Graduate Education Exit Survey for master's students."
+    },
+    {
+        "query": "Is submitting a ProQuest/UMI Publishing Agreement mandatory for PhD candidates?",
+        "answer": "Yes, all Ph.D. candidates must complete and submit the ProQuest/UMI Publishing Agreement, though copyrighting is optional."
+    },
+    {
+        "query": "What are the requirements for Master's degree candidates regarding ProQuest/UMI publishing?",
+        "answer": "Master's degree candidates are not required to publish their theses with ProQuest/UMI but have the option to do so. If they wish to copyright their theses, they can do so through ProQuest/UMI."
+    },
+    {
+        "query": "What is required to receive a master's degree based on doctoral candidacy?",
+        "answer": "To receive a master's degree based on candidacy, students must submit three forms to LGS by the published deadlines: the Candidacy form, Application for Degree form, and Degree Clearance form. Deadlines can be found in the LGS Academic Calendar."
+    },
+    {
+        "query": "Do all doctoral programs offer master's degrees based on candidacy?",
+        "answer": "No, the handbook indicates that 'some doctoral programs' award master's degrees to students who have reached doctoral candidacy, suggesting this is not a universal policy across all doctoral programs."
+    },
+    {
+        "query": "What are the requirements regarding financial obligations before graduation?",
+        "answer": "All financial obligations to the University must be cleared before graduation, including tuition, student health charges, parking fines, and library fines. Failure to settle outstanding charges will result in holds being placed on diplomas, transcripts, and other student records."
+    },
+    {
+        "query": "What happens to a student's stipend eligibility upon graduation?",
+        "answer": "Eligibility for stipend expires when a student graduates."
+    },
+    {
+        "query": "What are the consequences of having unsettled financial obligations to the University?",
+        "answer": "Failure to settle outstanding financial obligations will place holds on diplomas, transcripts, and other student records."
+    },
+    {
+        "query": "When is the university commencement ceremony held?",
+        "answer": "University commencement is held annually at the end of the spring term."
+    },
+    {
+        "query": "What should summer and fall graduates do regarding the spring commencement ceremony?",
+        "answer": "Summer and fall graduates should indicate whether they expect to return for commencement in the spring and update their OPUS record with a permanent email address to confirm their attendance plans."
+    },
+    {
+        "query": "How does a FERPA information suppression hold affect a student's commencement program listing?",
+        "answer": "Students with a FERPA information suppression hold will not have their names printed in the commencement program. Names will only be published if the FERPA hold is removed, which can only be done through the University Registrar's office."
+    },
+    {
+        "query": "What information appears on an Emory University diploma versus a transcript?",
+        "answer": "On diplomas, only the degree received is displayed (e.g., 'Doctor of Philosophy'), without showing the major field. Transcripts, however, show both the majors and degrees received. For example, a Ph.D. in English will appear as 'Doctor of Philosophy' on the diploma, not 'Doctor of Philosophy in English'."
+    },
+    {
+        "query": "How is a student's name printed on their Emory University diploma?",
+        "answer": "The diploma from Emory University is printed with the student's official name as it appears in OPUS (Emory's student information system)."
+    },
+    {
+        "query": "How do continuing degree-seeking students in the LGS typically register for courses?",
+        "answer": "Unless instructed otherwise by their program, continuing degree-seeking students in the LGS can register via OPUS (Emory's online registration system)."
+    },
+    {
+        "query": "What should students do to prepare for the registration process?",
+        "answer": "Students should: 1) Watch for specific instructions sent via email before pre-registration dates, 2) Pay attention to program instructions regarding registration, and 3) Ensure their accounts are settled with Emory's Student Financial Services."
+    },
+    {
+        "query": "What is the continuous registration requirement for PhD students in the LGS?",
+        "answer": "Students must maintain continuous registration throughout their entire course of study in the LGS. Failing to register for one or more terms or withdrawing after registering will result in inactive status, requiring the student to apply for readmission."
+    },
+    {
+        "query": "What happens if a PhD student fails to maintain continuous registration?",
+        "answer": "If a student does not register for one term or more or withdraws after registering, they will become inactive and must apply for readmission to the program."
+    },
+    {
+        "query": "What are the two steps required for registration?",
+        "answer": "The two steps required for registration are: 1) signing up for courses and 2) paying or arranging for payment of outstanding accounts."
+    },
+    {
+        "query": "What should students do before pre-registration?",
+        "answer": "Students should check with program staff before pre-registration to understand any program-specific requirements."
+    },
+    {
+        "query": "What is the process for regular students to register for courses?",
+        "answer": "Regular students may pre-register for courses through OPUS after complying with program procedures. They must obtain required program approval for their schedules and verify their registration is correct. Pre-registration dates can be found on the Office of the Registrar's website and LGS Academic Calendar."
+    },
+    {
+        "query": "How do special-standing students register for courses?",
+        "answer": "Special-standing students cannot use OPUS to pre-register. They must obtain signatures from course instructors and programs, with some programs requiring permission from the DGS or PD. They need to submit instructor approvals to the LGS, who will enter their schedule in OPUS on the first day of registration."
+    },
+    {
+        "query": "How are student billing statements delivered at Emory and what happens if a student fails to pay?",
+        "answer": "Student Financial Services generates electronic invoices posted in OPUS, and students are notified via their Emory email address. Paper statements are not mailed. If students fail to enroll in courses and pay their bills by the end of add/drop period, their registration and LGS financial award (including tuition scholarship, stipend, and health insurance subsidy) will be cancelled."
+    },
+    {
+        "query": "What is the payment process for student accounts at Emory?",
+        "answer": "After a student's schedule is entered into OPUS, Student Financial Services generates an electronic invoice which is posted in OPUS. Students are notified of this posting via their Emory email address. Bills are payable upon receipt, and students must follow instructions from The Office of Student Financial Services website. Students are responsible for both registering and paying their bills."
+    },
+    {
+        "query": "What is the standard full-time course load for PhD students and what is the maximum credit limit per term?",
+        "answer": "The standard full-time course load is nine credit hours during fall, spring, and summer terms, though some programs require 12 hours per term. The maximum number of credits allowed in any term is 16, with any additional credits requiring approval from both the DGS/PD and the LGS."
+    },
+    {
+        "query": "What is the process for adjusting course schedules and when can adjustments be made?",
+        "answer": "Students can adjust schedules during the University add/drop period through OPUS, but must first obtain program approval from their faculty adviser and DGS/PD. After the add/drop period but before the date of record, only the LGS can make schedule adjustments. No adjustments are permitted after the Registrar's date of record. Students are responsible for ensuring all adjustments are properly made before the date of record."
+    },
+    {
+        "query": "What are the possible letter grades available for graduate-level courses?",
+        "answer": "The possible letter grades for graduate-level courses are A, A-, B+, B, B-, C, and F."
+    },
+    {
+        "query": "What alternative grading options are available to graduate students besides letter grades?",
+        "answer": "Graduate students have two alternative grading options: 1) They may take some courses as S/U (satisfactory/unsatisfactory) with program approval, and 2) they may audit graduate courses with permission from both their program and the course instructor."
+    },
+    {
+        "query": "Where can students find the deadline for changing their course grading basis?",
+        "answer": "Students can find the last date for making changes to grading basis in the Registrar's calendar for any given term."
+    },
+    {
+        "query": "What is required for a student to withdraw from a course after the add/drop date?",
+        "answer": "A student must complete the Withdrawal Signature Form and receive a grade assignment (W, WF, or WU) from the course instructor."
+    },
+    {
+        "query": "What are the potential consequences of withdrawing from courses?",
+        "answer": "Withdrawing from courses can have multiple consequences: 1) Courses with a grade of W will not count toward candidacy, 2) Dropping below full-time status may result in recalculation of financial aid for the term, with specific consequences depending on factors like the type and amount of financial aid received and the official withdrawal date."
+    },
+    {
+        "query": "Are PhD students allowed to take undergraduate courses for language requirements?",
+        "answer": "Yes, PhD students can take undergraduate-level language courses to fulfill foreign language requirements, but they must first obtain permission from both their program and the course instructor before enrolling."
+    },
+    {
+        "query": "What approvals are needed for a PhD student to enroll in undergraduate courses?",
+        "answer": "PhD students need two types of approval to enroll in undergraduate courses: permission from their academic program and permission from the course instructor."
+    },
+    {
+        "query": "What is considered full-time enrollment status for student loan deferment purposes?",
+        "answer": "Students must be registered for nine or more credit hours to be recognized as having full-time degree status."
+    },
+    {
+        "query": "Who should students consult regarding specific enrollment requirements for loan deferments?",
+        "answer": "Students should consult with their lending agencies for specific enrollment requirements."
+    },
+    {
+        "query": "What is the policy regarding dual registration at Emory's Laney Graduate School?",
+        "answer": "Students can only enroll in one school at Emory at a time. To take courses in another Emory school's degree program, LGS students need permission from their advisor, course instructor, and DGS/PD. Registration must be done through LGS, and credits only count toward the LGS degree program. Courses can only count toward a single degree."
+    },
+    {
+        "query": "How are joint or dual degree programs handled regarding registration at Emory?",
+        "answer": "Students in recognized joint or dual degree programs (such as JD/Ph.D.) are handled differently, with accommodations varying by specific program."
+    },
+    {
+        "query": "What is ARCHE and how can Emory students participate in cross-registration through it?",
+        "answer": "ARCHE (Atlanta Regional Consortium for Higher Education) is a cross-registration agreement that allows Emory students to take courses at member institutions on a space-available basis, provided the course is not offered concurrently at Emory. Students must get permission from their advisers and programs before cross-registering, and may need to provide immunization records. Interested students should contact arche@registrar.emory.edu or call 404-727-6042."
+    },
+    {
+        "query": "What are the requirements for Emory students to cross-register through ARCHE?",
+        "answer": "To cross-register through ARCHE, students must: 1) ensure the desired course is not currently offered at Emory, 2) obtain permission from both their advisers and their programs, 3) verify course availability at the member institution, and 4) potentially provide immunization records as required by participating schools."
+    },
+    {
+        "query": "What are the main responsibilities of the Office of the Registrar at Emory University?",
+        "answer": "The Office of the Registrar at Emory University is responsible for supporting students' academic progress by ensuring accurate student records, managing student registration and enrollment systems, handling faculty grading, producing transcripts, and maintaining the school's academic policies and procedures."
+    },
+    {
+        "query": "What specific record-keeping functions does Emory's Registrar's Office oversee?",
+        "answer": "The Registrar's Office oversees several key record-keeping functions including: student registration and enrollment systems, faculty grading processes, transcript production, and the maintenance of all student academic records."
+    },
+    {
+        "query": "What is required for amendments to the LGS Handbook that materially alter policies?",
+        "answer": "Amendments to the LGS Handbook that materially alter policies require approval of the LGS Executive Council, specifically for policies related to (1) the approval of new programs and courses, and (2) maintaining, revising, and implementing appropriate discipline standards of quality for admission, instruction, and student research in the LGS."
+    },
+    {
+        "query": "Do amendments that simply clarify existing policy require Executive Council approval?",
+        "answer": "No, handbook amendments that merely clarify existing policy do not require Executive Council approval."
+    },
+    {
+        "query": "Who are the main contacts for financial matters that graduate students might interact with at Emory?",
+        "answer": "Graduate students typically interact with four main contacts for financial matters: 1) Emory University Office of Financial Aid Advisors for federal aid compliance, 2) The Program DGS or Program Administrator for program-specific funding questions, 3) The LGS Student Funding team for LGS funding sources, and 4) Emory Research administration for students with external grants."
+    },
+    {
+        "query": "What is the role of the Emory University Office of Financial Aid Advisors?",
+        "answer": "The Emory University Office of Financial Aid Advisors help ensure compliance with federal aid, including loans and state and university guidelines."
+    },
+    {
+        "query": "What is included in Emory University's cost of attendance calculation?",
+        "answer": "The cost of attendance at Emory University includes tuition and student fees, living expenses, health insurance, parking fees, and incidentals (such as textbooks, computers, and supplies)."
+    },
+    {
+        "query": "How does funding support differ between doctoral and master's students at LGS?",
+        "answer": "Doctoral students enrolled full-time are eligible for full or partial tuition scholarships and may receive stipends from the university or external sources. Master's students have more limited support options, with some programs offering partial tuition scholarships on a merit basis. Students should contact their specific program to discuss cost of attendance details."
+    },
+    {
+        "query": "What is the one-time transcript fee for new students at Emory and what does it cover?",
+        "answer": "New degree and certificate students must pay a one-time transcript fee of $70 when they first enroll at Emory. This fee covers all future transcripts."
+    },
+    {
+        "query": "Do students need to pay the transcript fee if they previously got a degree from Emory?",
+        "answer": "If you have previously obtained a degree from Emory, you may have already paid the transcript fee and might not need to pay it again. Students should check with the Registrar's website for more information."
+    },
+    {
+        "query": "What are the health insurance requirements for Emory University graduate students?",
+        "answer": "All new and continuing degree-seeking Emory University students must have health insurance. They must either purchase the Emory University Student Health Insurance Plan (EUSHIP) or opt out by providing documentation of enrollment in a comparable United States-based plan."
+    },
+    {
+        "query": "What happens if a student doesn't waive out of EUSHIP by the billing date?",
+        "answer": "If a student has not completed the waiver process by the date of Emory's pre-term Student Accounts and Billing bill, they will automatically be billed for the Emory University Student Health Insurance Plan (EUSHIP)."
+    },
+    {
+        "query": "What are the penalties for having past due accounts at the university?",
+        "answer": "The penalties for past due accounts include: cancellation of registration, refusal to approve continued registration, refusal to release transcripts, and withholding of diplomas."
+    },
+    {
+        "query": "What financial responsibilities do graduate students have to maintain good standing with the university?",
+        "answer": "Students must maintain good financial standing by ensuring timely payment of tuition, repayment of emergency loans, and payment of any fees or fines incurred through the libraries or parking office."
+    },
+    {
+        "query": "What is a Courtesy Scholarship at Emory University and what does it cover?",
+        "answer": "A Courtesy Scholarship is a grant available to Emory employees and their family members that covers tuition only. It does not cover textbooks, fees, application fees, audited courses, or other miscellaneous charges. The percentage of tuition covered is based on the employee's years of service."
+    },
+    {
+        "query": "Who should Emory employees contact to determine their eligibility for Courtesy Scholarships?",
+        "answer": "Emory employees must contact Human Resources to get information about their eligibility for Courtesy Scholarships."
+    },
+    {
+        "query": "Who provides official notification of merit awards to graduate students?",
+        "answer": "The LGS (Laney Graduate School) provides official notification of merit awards, although some programs may inform students of their award recommendations beforehand."
+    },
+    {
+        "query": "What agreement governs the timing of financial assistance offers in graduate schools?",
+        "answer": "Financial assistance offers are made in accordance with the April 15 Resolution adopted by the Council of Graduate Schools (CGS). Details of this resolution and participating institutions can be found on the CGS website."
+    },
+    {
+        "query": "What type of financial assistance must be repaid by Emory University students?",
+        "answer": "Student loans must be repaid by Emory University students."
+    },
+    {
+        "query": "What can students learn about by contacting the Office of Financial Aid?",
+        "answer": "Students can speak with a financial aid advisor about the cost of attendance and get information about federal and private loan programs."
+    },
+    {
+        "query": "What are the key characteristics of LGS tuition scholarships?",
+        "answer": "LGS tuition scholarships can cover partial or complete tuition costs. They are provided as tuition credits only and cannot be converted to cash or used for other purposes. They cannot be paid directly to students."
+    },
+    {
+        "query": "Are doctoral students in their seventh year or beyond eligible for tuition scholarships?",
+        "answer": "Yes, doctoral students who have been granted an extension in their seventh year and beyond may receive partial tuition scholarships."
+    },
+    {
+        "query": "How frequently and when are doctoral student base stipends disbursed?",
+        "answer": "Doctoral student base stipends are disbursed monthly on the last business day of each month."
+    },
+    {
+        "query": "What is the typical disbursement period for doctoral student base stipends and when does it start?",
+        "answer": "Doctoral student base stipends are disbursed over a 12-month period, running from September through August."
+    },
+    {
+        "query": "Under what circumstances would a student's stipend support eligibility end?",
+        "answer": "Stipend support eligibility expires when a student graduates, withdraws, is not enrolled or is inactive, is dismissed, or otherwise becomes ineligible."
+    },
+    {
+        "query": "How are LGS stipends distributed to doctoral students?",
+        "answer": "All doctoral students receiving an LGS stipend must enroll in Direct Deposit to receive funds. The funds are deposited on the last business day of the month."
+    },
+    {
+        "query": "When will doctoral students receive notification about their LGS stipend deposit?",
+        "answer": "The University will send an email notification several days before funds are deposited into accounts. However, the actual deposit occurs on the last business day of the month, not on the day of email notification."
+    },
+    {
+        "query": "Under what circumstances does eligibility for student stipends end?",
+        "answer": "Eligibility for student stipends ends when a student: graduates, withdraws, is not enrolled, is dismissed, or becomes ineligible."
+    },
+    {
+        "query": "What happens to stipend support when a student takes an approved leave of absence (LOA)?",
+        "answer": "Stipend support for a student on an approved leave of absence (LOA) will be paused until the student returns from LOA."
+    },
+    {
+        "query": "Can unused stipends be saved or deferred for future use?",
+        "answer": "No, unused stipends cannot be deferred or reserved."
+    },
+    {
+        "query": "What is the primary purpose of the Ph.D. stipend according to LGS policy?",
+        "answer": "The Ph.D. stipend is intended to support graduate students so they can devote themselves to full-time study in their programs."
+    },
+    {
+        "query": "What are the key considerations for students seeking employment while receiving LGS funding?",
+        "answer": "Students may need approval for employment opportunities (both related and unrelated to their program), and taking on such work may affect their base stipend support from LGS. These policies are based on Emory's Policy 10.5 on credit hours and standard academic scholarship practices."
+    },
+    {
+        "query": "What are the employment restrictions for full-time LGS students receiving stipends?",
+        "answer": "Full-time LGS students receiving stipends can work up to 10 hours per week without seeking permission. For work exceeding 10 hours per week, they must obtain approval from both their DGS and the LGS Dean's office."
+    },
+    {
+        "query": "What constitutes full-time status for LGS students and what is the expected time commitment?",
+        "answer": "Full-time status requires enrollment in more than 9 credit hours per term, with students commonly taking 12 credit hours. Under Policy 10.5, students enrolled in 12 credit hours are expected to devote at least 30 hours per week to learning, divided between classroom contact with faculty and outside-of-class learning."
+    },
+    {
+        "query": "How does outside employment affect a PhD student's base stipend support?",
+        "answer": "The base stipend support is affected according to the following schedule: Students working 11-20 hours/week receive full base stipend rate, those working 21-30 hours receive 50% of base stipend, and those working 31+ hours receive no stipend support during their employment period."
+    },
+    {
+        "query": "What is the stipend policy for a PhD student who works 25 hours per week in outside employment?",
+        "answer": "A PhD student who works 25 hours per week in outside employment will receive 50% of the base stipend support rate for the period in which they are employed, as this falls within the 21-30 hours range."
+    },
+    {
+        "query": "What is Emory University's policy on providing tax advice to students regarding scholarships and awards?",
+        "answer": "Emory University does not offer personal tax advice. The university recommends that students seek professional tax counsel when needed and consult the IRS directly for information about taxes related to scholarships, subsidies, fellowships, grants, awards, or stipends."
+    },
+    {
+        "query": "How is the tax treatment of academic financial aid handled for students?",
+        "answer": "The tax treatment of scholarships, subsidies, fellowships, grants, awards, or stipends may vary for each individual student. Students are advised to consult with the IRS for specific information about their tax obligations and seek professional tax counsel when necessary."
+    },
+    {
+        "query": "What is the maximum amount a student can borrow from the LGS Emergency Loan Fund?",
+        "answer": "The maximum loan amount from the LGS Emergency Loan Fund is $1,000."
+    },
+    {
+        "query": "What are the repayment terms for an LGS Emergency Loan?",
+        "answer": "Students must sign a promissory note agreeing to repay the loan within 89 days of issue. The loans are interest-free during this 89-day period."
+    },
+    {
+        "query": "What is the purpose of the LGS Emergency Loan Fund?",
+        "answer": "The LGS Emergency Loan Fund is designed to help students through unexpected financial crises, such as illness, family job loss, and delays in other types of funding."
+    },
+    {
+        "query": "What are the eligibility requirements for the LGS Emergency Loan Fund?",
+        "answer": "To be eligible for the LGS Emergency Loan Fund, applicants must: 1) Be a full-time student enrolled in a degree program with at least nine credit hours in the term they want the loan, 2) Have no outstanding debt from previous LGS Emergency Loan Fund or University loans, and 3) Demonstrate financial need of an emergency nature. Students in special standing are not eligible."
+    },
+    {
+        "query": "Can a part-time student with 6 credit hours apply for an LGS Emergency Loan?",
+        "answer": "No, part-time students with 6 credit hours are not eligible. The LGS Emergency Loan Fund requires applicants to be full-time students enrolled in at least nine credit hours during the term they wish to receive the loan."
+    },
+    {
+        "query": "What is the process for obtaining an LGS Emergency Loan?",
+        "answer": "The process involves several steps: 1) Complete an application form (available at LGS office or website) and submit it to LGS, including how the loan will be repaid. 2) For new students, get signature from DGS, PD, or program administrator. 3) Wait for LGS approval (usually 1 day). 4) Sign a promissory note and deliver it to Student Accounts and Billing Office. 5) Pick up loan check within 2-3 days after delivering the promissory note."
+    },
+    {
+        "query": "What are the eligibility requirements and repayment terms for an LGS Emergency Loan?",
+        "answer": "Eligibility requirements: Students must be enrolled full-time in the current term and have financial aid posted or pending. Repayment terms: Loans must be repaid within 89 days of issue. Past-due loans are subject to interest charges and collection costs. Non-payment can result in holds on registration, transcripts, and graduation. The loan amount and due date will appear on the student's account and bill during the next billing cycle."
+    },
+    {
+        "query": "What are the main factors evaluated each term to determine satisfactory academic progress for financial aid recipients at Emory?",
+        "answer": "The three main factors evaluated each term are: 1) Grade point average (GPA), 2) Time to degree completion, and 3) Percentage of courses passed."
+    },
+    {
+        "query": "What is the minimum GPA requirement for PhD students to maintain satisfactory academic progress?",
+        "answer": "PhD students must maintain a 2.7 current GPA each semester and an overall 2.7 cumulative GPA."
+    },
+    {
+        "query": "What is the maximum time frame policy for graduate students to complete their degrees while maintaining financial aid eligibility?",
+        "answer": "The maximum time frame is 150% of the hours required to complete their degree program. Specifically, Master's programs must complete the degree within 108 attempted units (based on a 72-unit requirement), and PhD programs must complete within 324 attempted units (based on a 216-unit requirement)."
+    },
+    {
+        "query": "What is the consequence of failing to pass two-thirds of courses for two consecutive terms?",
+        "answer": "Any student who fails for two successive terms to pass two-thirds of the hours taken shall be automatically excluded regardless of any previous average."
+    },
+    {
+        "query": "What are the conditions students must meet while on academic probation to maintain financial aid eligibility?",
+        "answer": "During the probationary period, students must maintain a GPA of at least 2.7 and are not permitted to receive grades of F, U, W, WF, WU, I, IF, or IU. Students who fail to meet these probationary conditions will become ineligible for future stipend disbursement."
+    },
+    {
+        "query": "How can students appeal their financial aid disqualification and what is the recommended timeline?",
+        "answer": "Students can submit a Satisfactory Academic Progress Appeal Form with supporting documentation of mitigating circumstances. The appeal should be submitted by the first day of class for the term being appealed to ensure adequate time for processing. The Office of Financial Aid typically only approves one appeal per academic degree, though exceptions may be made for documented extenuating circumstances."
+    },
+    {
+        "query": "What are the four fundamental rights granted to students by LGS according to Article III?",
+        "answer": "According to Article III, LGS grants students four fundamental rights: 1) The right to academic freedom, including freedom of thought and expression, 2) The right to be free from discrimination and harassment based on various protected characteristics, 3) The right to fair and due process procedures in Honor, Conduct, and Grievance cases, and 4) The right to participate in academic and non-academic University-sponsored activities within policy constraints."
+    },
+    {
+        "query": "What expectations does LGS have regarding academic and conduct integrity?",
+        "answer": "LGS expects all students, faculty, and members of the Emory community to cooperate in maintaining academic and conduct integrity. They should strive to excel in their academic pursuits with honesty and fairness, avoiding all instances of cheating, lying, plagiarizing, or other violations of the Honor and Conduct Codes. Additionally, all community members are expected to know and stay updated on the policies provided in the Handbook and linked documents."
+    },
+    {
+        "query": "What constitutes academic misconduct according to the LGS Honor Code?",
+        "answer": "Academic misconduct occurs when someone intentionally, knowingly, or recklessly engages in prohibited actions including: cheating or obtaining unauthorized assistance in academic work, acquiring/passing exam information before authorized release, plagiarism, fabrication, falsification of information, or attempting any of these actions. The LGS follows Emory University Policy 7.8 definitions for plagiarism, fabrication, and falsification."
+    },
+    {
+        "query": "Can ignorance of the Honor Code be used as a defense against an academic misconduct violation?",
+        "answer": "No, ignorance of the Honor Code cannot be used as a defense against an alleged violation. Every student must know the regulations regarding academic misconduct."
+    },
+    {
+        "query": "What are the three conditions that must be met for information to be used in a research paper without citation?",
+        "answer": "Information can be used without citation only if it: 1) May be found in several books on the subject, 2) Is written entirely in the student's words, and 3) Is not paraphrased from any source and is regarded as common knowledge."
+    },
+    {
+        "query": "What is Emory's policy regarding the use of AI in academic assignments?",
+        "answer": "Using AI to generate content for assignments constitutes plagiarism and violates the Honor Code unless students explicitly acknowledge the extent of AI contribution and its use is permitted for the assignment. When external resources are not allowed or AI use is prohibited, using AI may constitute unauthorized assistance. Students should consult their DGS, Faculty Mentor, or instructor for clarification about appropriate AI use."
+    },
+    {
+        "query": "What is the proper procedure for reporting suspected academic misconduct according to the LGS Honor Code?",
+        "answer": "The procedure requires that any individual who suspects academic misconduct should report it to either the DGS (Director of Graduate Studies), PD (Program Director), or a member of the LGS decanal staff. After a DGS or PD receives such a report, they must promptly notify the Dean of Student Affairs in the LGS in writing. The Dean of Student Affairs or designee then investigates once relevant materials are received."
+    },
+    {
+        "query": "How are cases involving research misconduct handled under the LGS Honor Code?",
+        "answer": "In cases involving research misconduct, jurisdiction is shared between the LGS and the Emory Office of Research Integrity and Compliance (ORIC). These cases are handled through a collaborative process that follows the guidelines outlined in Emory Policy 7.8."
+    },
+    {
+        "query": "What are the key steps in the LGS Honor Code investigation procedure?",
+        "answer": "The key steps are: 1) Interviews with both the accuser and accused student by the Dean of Student Affairs, 2) The accused student must submit a written statement within 7 days of their interview explaining their account and identifying potential witnesses, 3) The Dean collects additional information and interviews other relevant individuals, 4) The Dean determines if there is sufficient evidence to move forward with the student's desired resolution. If insufficient evidence exists, all parties are notified that more information is needed to proceed."
+    },
+    {
+        "query": "What is required from the accused student during an LGS Honor Code investigation?",
+        "answer": "The accused student must participate in an interview with the Dean of Student Affairs to review the allegations, and then submit a written statement within 7 days following the interview. This statement should include their account of the incident, identify potential witnesses who can speak to the allegation, and state their desired resolution outcome."
+    },
+    {
+        "query": "What section of the LGS handbook addresses Honor Code resolution procedures?",
+        "answer": "Section 5 of the LGS handbook addresses Honor Code hearing committee paths for resolution as part of the Honor, Conduct, and Grievance policies."
+    },
+    {
+        "query": "Under which main category in Section 5 can information about the Honor Code Hearing Committee be found?",
+        "answer": "Information about the Honor Code Hearing Committee paths for resolution can be found under the LGS Honor Code subsection of Section 5: Honor, Conduct, and Grievance."
+    },
+    {
+        "query": "What is the purpose of an informal resolution meeting in the LGS Honor Code process?",
+        "answer": "An informal resolution meeting allows a student to accept responsibility for a violation instead of going through a full investigation and hearing. During this meeting, the student discusses the violation with the Dean of Student Affairs and LGSC Vice President to reaffirm Honor Code values, learn from the incident, and help inform appropriate sanctions."
+    },
+    {
+        "query": "Who participates in an informal resolution meeting for Honor Code violations?",
+        "answer": "The informal resolution meeting involves the reported student, the Dean of Student Affairs, and the Laney Graduate Student Council (LGSC) Vice President. The reporting faculty or DGS (Director of Graduate Studies) may also participate in the meeting."
+    },
+    {
+        "query": "What is the role of the Dean of Student Affairs in initiating an Honor Code hearing process?",
+        "answer": "The Dean of Student Affairs is responsible for convening a committee to advance to a hearing, notifying the accused student of charges, offering to meet to review Honor Code Hearing Procedures and student rights, and confirming potential witnesses for the hearing."
+    },
+    {
+        "query": "What steps does the Dean of Student Affairs take after deciding to proceed with an Honor Code hearing?",
+        "answer": "The Dean takes three main steps: 1) convenes a committee for the hearing, 2) notifies the accused student of the charges and offers to meet to review procedures and rights, and 3) confirms potential witnesses who will speak at the hearing."
+    },
+    {
+        "query": "Who comprises the Honor Code Full Committee during a hearing?",
+        "answer": "The Honor Code Full Committee consists of: 1) The LGSC Vice President (or designee) who acts as Chair, 2) A member of the LGSC (excluding the President and anyone from accused student's program), and 3) Two LGS graduate faculty members, with at least one from the accused student's program division but none from their specific program. The committee is formed by the Dean of Student Affairs."
+    },
+    {
+        "query": "What are the faculty requirements for serving on an Honor Code Full Committee?",
+        "answer": "Two faculty members must serve on the committee. They must be LGS graduate faculty members, and at least one must be from the accused student's program division (sciences, social sciences, or humanities). However, neither faculty member can be from the accused student's specific program."
+    },
+    {
+        "query": "How is the hearing date communicated to the accused student and what rights do they have regarding Committee members?",
+        "answer": "The Dean of Student Affairs sends the accused student a notice with the date, time, and place of the hearing. The notice includes the names of Committee members and potential speakers. The student has 3 days from receipt to object to Committee members, providing detailed reasoning. If an objection is filed, the Dean of Student Affairs decides if Committee members should be replaced."
+    },
+    {
+        "query": "What is required for a finding of an Honor Code violation and what happens after the Committee's deliberation?",
+        "answer": "A three-fourths vote of the Committee is required for finding an Honor Code violation. After deliberation, the Committee prepares a written summary including evidence, facts, findings, and recommended sanctions. This is submitted to the LGS Dean and Dean of Student Affairs. The LGS Dean reviews the summary and can adopt, increase, or decrease the severity of recommended sanctions. The Dean then prepares a written outcome statement including findings, sanctions, and appeal rights, which is sent to the accused student and University Registrar."
+    },
+    {
+        "query": "What rights does an accused student have during a hearing according to Section 7 of the handbook?",
+        "answer": "An accused student has several key rights during a hearing: 1) The right to testify, be present, and make opening and closing statements, 2) The right to request accommodations through Emory's Department of Accessibility Services, 3) The right to have an advisor from the LGS community (with some exceptions approved by the Dean), though the advisor serves in a non-speaking role, and 4) The right to call witnesses, present evidence, and question witnesses at the hearing."
+    },
+    {
+        "query": "What are the rules regarding advisors during student hearings?",
+        "answer": "Advisors must typically be LGS community members (student, faculty, or staff). In cases of hardship, the Dean of Student Affairs may allow selection of a non-attorney from within the University community. The Dean reserves the right to restrict advisor choice if there's a conflict of interest. The advisor's role is strictly supportive and non-speaking - they cannot speak to the Committee or witnesses. The advisor's purpose is to support the student throughout the process."
+    },
+    {
+        "query": "What sanctions can be imposed when a student is found responsible for an Honor Code violation?",
+        "answer": "When found responsible for an Honor Code violation, students may face any of these sanctions: 1) A verbal warning, 2) An educational program, 3) Probation (indicating student is not in good academic standing), 4) Partial or no credit on the work in question, 5) Course failure, 6) Suspension from the program/Emory for a specific period, 7) Revocation of financial support, 8) Permanent expulsion from Emory University, or 9) Other appropriate sanctions not specifically listed. All sanctions are recorded in the student's academic record."
+    },
+    {
+        "query": "What happens to a student's academic record when sanctions are imposed for Honor Code violations?",
+        "answer": "All sanctions imposed for Honor Code violations will be recorded in the student's academic record, regardless of the type or severity of the sanction."
+    },
+    {
+        "query": "Why is confidentiality important in academic dishonesty proceedings?",
+        "answer": "Confidentiality is important because alleged academic dishonesty can seriously impact a student's professional career and relations. The proceedings must be carried out with due regard for privacy, and committee chairs must take reasonable steps to maintain this privacy. This discretion helps preserve student confidentiality and prevents any perception of retaliation."
+    },
+    {
+        "query": "Who is responsible for maintaining privacy in academic dishonesty proceedings?",
+        "answer": "The Chairs of both the Committee and the Appeal Committee are responsible for taking reasonable steps to ensure privacy is maintained throughout the proceedings."
+    },
+    {
+        "query": "What are the valid grounds for appealing a Committee and LGS Dean's decision?",
+        "answer": "There are three valid grounds for appeal: 1) Procedural irregularity that affected the outcome, 2) New evidence that wasn't reasonably available at the time of determination and could affect the outcome, 3) Committee members had a conflict of interest or bias that affected the outcome (if the conflict involves a Committee member and was raised before the hearing). Mere dissatisfaction with the decision or sanctions is not grounds for appeal."
+    },
+    {
+        "query": "Who makes up the Appeal Committee and what actions can they take?",
+        "answer": "The Appeal Committee consists of: two Executive Council members of LGS (one as Chair), the LGSC President, and one LGSC member not from the student's program. They can take four possible actions: 1) Affirm the original finding and sanction, 2) Affirm the finding but issue a new sanction, 3) Remand the case to correct procedural or factual defects, or 4) Dismiss the case if defects cannot be remedied by remand. Their determinations are final and not appealable, except for remanded cases."
+    },
+    {
+        "query": "What are the main objectives of the LGS Conduct Code as stated in the preamble?",
+        "answer": "The LGS Conduct Code has two main objectives: 1) To acquaint students with the rights and responsibilities of members of the Emory community, and 2) To introduce policies that apply to them as members of the academic community at Emory University."
+    },
+    {
+        "query": "Does the LGS Conduct Code list every possible violation, and what authority does the LGS administration have regarding protective actions?",
+        "answer": "No, the Code does not catalog every possible violation but rather provides examples of conduct that would almost certainly be considered violations. The LGS school administration has the authority to act outside the listed protocols when necessary to ensure that members of the Emory community are not subject to imminent harm."
+    },
+    {
+        "query": "What are the consequences of unauthorized recording at Emory according to the LGS Conduct Code?",
+        "answer": "According to the LGS Conduct Code, taking photographs, making images, or recording audio/video (including streaming) of any Emory community member without their consent is prohibited, particularly in situations where a reasonable person would find the recording inappropriate and/or likely to cause injury or distress, or when the person being recorded has a reasonable expectation of privacy."
+    },
+    {
+        "query": "What authority does the University have to take immediate action in situations affecting campus safety?",
+        "answer": "The University reserves the right to take prompt, interim action to protect campus community safety. Both the Vice President and Dean for Campus Life (or their designee) and the LGS Dean of Student Affairs have complete discretion and authority to address student conduct based on situational urgency. While temporary administrative interim actions can be taken to ensure community safety, these measures will be reviewed promptly, typically within five business days."
+    },
+    {
+        "query": "What is the first step in reporting suspected academic misconduct according to the LGS Conduct Code?",
+        "answer": "The first step is for any individual who suspects academic misconduct to report the alleged breach to either the DGS (Director of Graduate Studies), PD (Program Director), or a member of the decanal staff of the LGS."
+    },
+    {
+        "query": "What should a DGS or PD do after receiving a report of academic misconduct?",
+        "answer": "After receiving a report of academic misconduct, the DGS or PD should promptly notify the Dean of Student Affairs in the LGS in writing."
+    },
+    {
+        "query": "Who is responsible for investigating academic misconduct cases once materials are received?",
+        "answer": "Once relevant materials are received, the Dean of Student Affairs or their designee is responsible for investigating the case."
+    },
+    {
+        "query": "What are the initial steps in an LGS conduct code investigation procedure?",
+        "answer": "The initial steps include conducting separate interviews with both the individual making the allegation and the accused student. After the interview, the accused student must submit a written statement within 7 days detailing their account of the incident and identifying potential witnesses."
+    },
+    {
+        "query": "What happens after the Dean of Student Affairs collects all initial evidence in a conduct code investigation?",
+        "answer": "After collecting all initial evidence and conducting interviews, the Dean of Student Affairs determines if sufficient evidence exists to move forward to a hearing. If sufficient evidence exists, they will convene a committee and notify the accused student of charges. If insufficient evidence exists, they will notify all parties that the process cannot move forward."
+    },
+    {
+        "query": "Who forms the Conduct Code Committee and when is it formed?",
+        "answer": "The Dean of Student Affairs forms the committee when there is sufficient evidence to proceed with a hearing."
+    },
+    {
+        "query": "What is the composition of the LGS Conduct Code Committee?",
+        "answer": "The Committee consists of: 1) The LGSC Vice President (or designee) as Chair, 2) A member of the LGSC (excluding the LGSC President and anyone from accused student's program), 3) Two LGS graduate faculty members, with at least one from the accused student's program division but none from their specific program."
+    },
+    {
+        "query": "What is the voting requirement for finding a Conduct Code violation, and what happens after the Committee's deliberation?",
+        "answer": "A three-fourths vote of the Committee is required to find a Conduct Code violation. After deliberation and voting on possible sanctions, the Committee prepares a written summary including pertinent evidence and facts, their finding, and recommended sanctions. This summary is submitted to the LGS Dean and Dean of Student Affairs. The LGS Dean reviews the summary and can adopt, increase, or decrease the severity of recommended sanctions before preparing a final written statement of the outcome."
+    },
+    {
+        "query": "How is the confidentiality of conduct code hearings maintained?",
+        "answer": "Confidentiality is maintained through several measures: 1) Only the Committee members, a designated LGS decanal staff member, the accused student, and their advisor may be present during the hearing (besides testifying witnesses), 2) The Dean of Student Affairs records the hearing (except deliberations), and this recording is retained according to University policy, 3) No other recording is permitted to protect the confidentiality of the process and privacy rights of educational records, and 4) Witnesses are reminded of LGS expectations related to confidentiality before testifying."
+    },
+    {
+        "query": "What rights does an accused student have regarding testimony and presence during a conduct hearing according to the LGS Conduct Code?",
+        "answer": "According to Section 7 of the LGS Conduct Code, an accused student has the right to testify, be present at the hearing, and make both opening and closing statements."
+    },
+    {
+        "query": "What are the rules regarding advisors for accused students during LGS conduct hearings?",
+        "answer": "An accused student has the right to have an advisor who must be an LGS community member (student, faculty, or staff). In cases of hardship, the Dean of Student Affairs may allow selection of a non-attorney from within the University community. The advisor serves in a non-speaking support role and cannot speak to the Committee or witnesses. The Dean of Student Affairs can restrict advisor choice if there's a conflict of interest."
+    },
+    {
+        "query": "What process should students follow if they need accommodations for a conduct hearing?",
+        "answer": "Students needing accommodations must contact Emory's Department of Accessibility Services (DAS) and notify the Dean of Student Affairs as soon as possible. The Dean and DAS will then engage in an interactive process to determine what accommodations are needed."
+    },
+    {
+        "query": "What rights does an accused student have regarding witnesses and evidence during a conduct hearing?",
+        "answer": "An accused student has the right to call a reasonable number of witnesses, present evidence, and question witnesses. They must identify potential witnesses and evidence in their written statement during the investigation stage. They can identify witnesses they want to speak at the hearing, and the Dean of Students will notify witnesses who need to attend."
+    },
+    {
+        "query": "What sanctions can be imposed when a student is found responsible for violating the LGS Conduct Code?",
+        "answer": "The possible sanctions include: 1) No sanction/case dismissed, 2) A warning, 3) An educational program (like JPE course or CITI training), 4) Probation, 5) Partial or no credit on work, 6) Course failure, 7) Suspension, 8) Revocation of financial support, 9) Permanent expulsion, and 10) Other appropriate sanctions. The LGS Dean has discretion to adopt, increase, or decrease the severity of recommended sanctions."
+    },
+    {
+        "query": "What happens after the LGS Committee determines sanctions for a conduct violation?",
+        "answer": "After the Committee's determination, the Dean prepares a written statement containing the Committee's findings, the chosen sanction(s), and information about the student's right to appeal. This outcome notification is sent to both the accused student and the University Registrar, and the record is placed in the student's academic file."
+    },
+    {
+        "query": "How does LGS handle confidentiality in misconduct proceedings?",
+        "answer": "LGS handles misconduct proceedings with strict privacy measures. The LGS Dean and chairs of the Committee and Appeal Committee are responsible for maintaining confidentiality. The process emphasizes discretion to preserve student privacy and prevent any retaliatory actions."
+    },
+    {
+        "query": "Under what circumstances can information about student conduct violations be released according to FERPA?",
+        "answer": "Under FERPA, when a student is accused of a policy violation constituting a 'crime of violence,' the University can inform the alleged victim/complainant of the final hearing results in writing, regardless of the conclusion. This release may include the responding student's name, violation committed, and sanctions assigned. For confirmed violations involving 'crimes of violence,' the University may also release this information publicly or to third parties. FERPA defines specific crimes of violence including arson, assault, burglary, criminal homicide, vandalism, kidnapping, robbery, and various sex offenses."
+    },
+    {
+        "query": "What are the valid grounds for appealing a decision of the LGS Conduct Code Committee?",
+        "answer": "There are three valid grounds for appeal: 1) Procedural irregularity that affected the outcome, 2) New evidence that wasn't reasonably available at the time of determination and could affect the outcome, 3) Committee members had a conflict of interest or bias that affected the outcome (if the conflict involves a Committee member and was raised before the hearing). Mere dissatisfaction with the decision or sanctions is not grounds for appeal."
+    },
+    {
+        "query": "What is the composition of the Appeal Committee and what decisions can it make?",
+        "answer": "The Appeal Committee consists of two Executive Council members of LGS (one serving as Chair), the LGSC President, and one LGSC member not from the student's program. The Committee can make four possible decisions: 1) Affirm the original finding and sanction, 2) Affirm the original finding but issue a new sanction, 3) Remand the case to correct procedural or factual defects, or 4) Dismiss the case if defects cannot be remedied by remand. No member who served on the original Hearing Committee or participated in the proceedings can serve on the Appeal Committee."
+    },
+    {
+        "query": "What is the main purpose of Emory University's Involuntary Withdrawal Policy and how does it differ from the Student Conduct Code?",
+        "answer": "The Involuntary Withdrawal Policy is specifically designed to address situations where a student's behavior indicates a direct threat to their own health/safety or poses an immediate threat to others' health/safety. Unlike the Student Conduct Code or Honor Code, which handle disciplinary matters and conduct violations, this policy is not disciplinary in nature. However, there may be situations where both policies could apply. The Dean of LGS has final authority on all involuntary withdrawal decisions."
+    },
+    {
+        "query": "Who has the final authority in cases of involuntary withdrawal at Emory University?",
+        "answer": "The Dean of the LGS (Laney Graduate School) has final authority regarding all aspects of involuntary withdrawal, including the decision, enactment, enforcement, and management of the involuntary withdrawal of a student."
+    },
+    {
+        "query": "Under what conditions can a student be involuntarily withdrawn from Emory University?",
+        "answer": "A student can be involuntarily withdrawn if they represent a direct threat to health and safety by either: 1) Engaging or threatening behavior that poses high probability of harm to themselves or others, or 2) Engaging or threatening behavior that would cause significant property damage, impede others' lawful activities, or interfere with educational process and University operations."
+    },
+    {
+        "query": "What types of threatening behaviors can lead to involuntary withdrawal at Emory?",
+        "answer": "Two types of threatening behaviors can lead to involuntary withdrawal: 1) Behavior that poses a high probability of substantial harm to oneself or others, and 2) Behavior that would cause significant property damage or substantially impede lawful activities and University operations."
+    },
+    {
+        "query": "What is the initial step taken by an Assistant or Associate Dean when initiating an assessment for involuntary withdrawal of a student?",
+        "answer": "The Assistant or Associate Dean first meets with the student to accomplish four main tasks: review available information about concerning behavior/incidents, provide and discuss the Involuntary Withdrawal Policy, allow the student to explain their behavior, and discuss available options including counseling, voluntary withdrawal, and evaluation for involuntary withdrawal."
+    },
+    {
+        "query": "What happens if a student agrees to withdraw voluntarily during the withdrawal assessment process?",
+        "answer": "If a student agrees to withdraw voluntarily, they will receive a grade of W for all courses, waive their rights to further procedures under the policy, receive written conditions necessary for re-enrollment, and be referred for appropriate services."
+    },
+    {
+        "query": "What can happen if a student refuses to withdraw voluntarily and continues to meet withdrawal criteria?",
+        "answer": "If a student refuses to withdraw voluntarily and the Assistant or Associate Dean continues to have reasonable cause to believe the student meets one or more of the criteria for involuntary withdrawal, they may require the student to be evaluated by appropriate mental health or other professionals."
+    },
+    {
+        "query": "What is the timeline for completing a mandatory mental health evaluation after receiving a referral, and what documentation is required before the evaluation?",
+        "answer": "The evaluation must be completed within 5 school days after receiving the referral letter. Before the evaluation, the student must sign a written authorization to exchange relevant information between the mental health professional(s) and the University. After completion, copies of the evaluation report are provided to both the Assistant/Associate Dean and the student."
+    },
+    {
+        "query": "Under what circumstances can a student be involuntarily withdrawn from the University based on a mental health evaluation?",
+        "answer": "A student can be involuntarily withdrawn if the evaluation determines that their continued attendance presents a significant risk to the health or safety of themselves or others, with a high probability of substantial harm, or poses a significant threat to property, lawful activities of others, or the educational processes and orderly operations of the University. In such cases, the student will be informed in writing of the withdrawal, their right to an informal hearing and appeal, and any conditions for re-enrollment. Usually, students who are involuntarily withdrawn receive W grades in all current courses."
+    },
+    {
+        "query": "What is the timeline for requesting an informal hearing after an involuntary withdrawal notice?",
+        "answer": "A student must submit a written request for an informal hearing within two (2) business days from receipt of the involuntary withdrawal notice."
+    },
+    {
+        "query": "What are the key characteristics of the informal hearing process for involuntary withdrawal cases?",
+        "answer": "The hearing is informal and non-adversarial. Students may present relevant information and can be advised by an Emory faculty member, staff member, or licensed health professional, though the advisor's role is limited to advising. The student remains involuntarily withdrawn until the hearing process is complete. After the hearing, the hearing officer decides whether to uphold or reconsider the withdrawal, and the student receives immediate written notice of the decision."
+    },
+    {
+        "query": "Who can a student appeal to regarding an involuntary withdrawal decision?",
+        "answer": "A student can appeal the hearing officer's decision to the Dean."
+    },
+    {
+        "query": "What is the Dean's role in the involuntary withdrawal appeal process?",
+        "answer": "The Dean reviews all information presented and decides whether to uphold the involuntary withdrawal."
+    },
+    {
+        "query": "Under what circumstances can the University implement an emergency suspension of a student?",
+        "answer": "The University can implement emergency suspension in the following situations: 1) When there is imminent danger of serious physical harm to the student or others, 2) When there is imminent danger of significant property damage, 3) When the student is unable/unwilling to meet with the Assistant or Associate Dean, 4) When the student refuses or fails to complete mandatory evaluation, or 5) When the Emory Threat Assessment team and Assistant/Associate Deans determine exceptional circumstances warrant emergency suspension."
+    },
+    {
+        "query": "What rights are given to students who are placed under emergency suspension?",
+        "answer": "When a student is placed under emergency suspension, they must be given notice of the emergency suspension and provided an initial opportunity to address the circumstances on which the emergency suspension is based."
+    },
+    {
+        "query": "What is required before a student who was involuntarily withdrawn can be readmitted?",
+        "answer": "A student who has been involuntarily withdrawn must undergo a re-evaluation by the Dean or their designee before readmission to ensure they do not present a direct threat to themselves or others."
+    },
+    {
+        "query": "Why might re-evaluation be required for students seeking readmission after involuntary withdrawal?",
+        "answer": "Re-evaluation is required because the Involuntary Withdrawal Policy applies to cases involving safety concerns about the student or others, so the institution needs to ensure the safety risk has been addressed before readmission."
+    },
+    {
+        "query": "What is the first step a student should take when they have a grievance or disagreement within their program?",
+        "answer": "Students should first address their concerns to either the Program Director (PD) or the appropriately designated Committee in their program."
+    },
+    {
+        "query": "When can students bring their grievances to the LGS Committee on Grievances?",
+        "answer": "Students can bring their grievances to the LGS Committee on Grievances if they either cannot reach a resolution through program channels or believe their issues cannot be reasonably resolved through those routes."
+    },
+    {
+        "query": "How is the LGS Committee on Grievances composed?",
+        "answer": "The Committee on Grievances consists of three graduate faculty members who are appointed by the LGS Senior Associate Dean."
+    },
+    {
+        "query": "What are the required components that should be included in a formal grievance submission to the LGS Committee on Grievances?",
+        "answer": "A formal grievance submission should include four main components: 1) A concise statement of the grievance indicating policy violations that affected the student, 2) A description of previous resolution efforts, 3) A clear statement of the desired remedy, and 4) Supporting evidence for the complaint's claims. The grievance must be no longer than 5 single-spaced pages and should be submitted via email to the Senior Associate Dean."
+    },
+    {
+        "query": "What is the time limit for filing a grievance to challenge a dismissal decision from LGS?",
+        "answer": "A student must file their grievance within 15 days of receiving the dismissal notice if they wish to challenge the LGS Dean's decision to dismiss them from LGS."
+    },
+    {
+        "query": "What actions can the Committee on Grievances take after receiving a grievance?",
+        "answer": "After receiving a grievance, the Committee on Grievances can: 1) request additional information from or about the student, 2) request statements from other parties, and 3) request meetings with the student or other involved parties to clarify statements or evidence. During meetings, parties may only bring representatives when specifically invited to do so by the Committee."
+    },
+    {
+        "query": "What is the final process for resolving a grievance according to the LGS Grievance Procedure?",
+        "answer": "The Committee on Grievances makes a written recommendation to the LGS Dean, including their reasoning and all supporting documentation. The LGS Dean then makes the final decision on the resolution of the grievance and informs both the student and the Committee of the decision."
+    },
+    {
+        "query": "What are the valid grounds for appealing a Dean's decision to the LGS Executive Council?",
+        "answer": "There are three valid grounds for appeal: 1) Procedural irregularity that affected the outcome of the matter, 2) New evidence that was not reasonably available at the time the grievance was resolved which could have affected the outcome, and 3) Members of the Committee on Grievances had a conflict of interest or demonstrated bias for or against the accused student that affected the outcome of the matter. Mere dissatisfaction with the decision is not considered valid grounds for appeal."
+    },
+    {
+        "query": "What are the possible decisions the Executive Council can make when reviewing an appeal?",
+        "answer": "The Executive Council can make four possible decisions: 1) Dismiss the appeal for failure to state valid grounds, 2) Affirm the Dean's decision, 3) Overturn the Dean's decision and issue a new decision, or 4) Remand the case back to the Committee on Grievances or to a new Committee to correct a procedural or factual defect. The Executive Council's determinations are final and not appealable, though the outcome of a remanded case may be appealed again."
+    },
+    {
+        "query": "What are students' responsibilities regarding university policies according to the LGS handbook?",
+        "answer": "Students are responsible for knowing and complying with all LGS and Emory University policies, including those provided in the Handbook and any linked policies. They should revisit the Handbook and policies regularly to stay familiar with them and check for updates."
+    },
+    {
+        "query": "Where can students find the complete collection of Emory University policies?",
+        "answer": "All Emory University policies can be found in a central policy library at https://policies.emory.edu/"
+    },
+    {
+        "query": "What is Emory University's primary method of official communication with students?",
+        "answer": "Email is the primary medium for official communication with students at Emory University."
+    },
+    {
+        "query": "What are students' responsibilities regarding their Emory email accounts?",
+        "answer": "Students are expected to maintain their accounts and check their email regularly so that new mail will be appropriately received and read. This is important because certain communications may be time critical."
+    },
+    {
+        "query": "What email address does Emory use for official communications with students?",
+        "answer": "The University assigns each registered student an official Emory email address and all University communications sent via email will be sent to this address."
+    },
+    {
+        "query": "What are Emory's basic computer requirements for students?",
+        "answer": "Emory requires all students to own or have access to a computer that meets minimum hardware and software requirements specific to their School and degree program and is compatible with the Emory network. These requirements ensure students can effectively access online course materials and participate in Canvas and Zoom."
+    },
+    {
+        "query": "What additional technology considerations should students make when choosing a computer for their studies at Emory?",
+        "answer": "Students should consider higher specifications if they are enrolled in classes or programs requiring Data Analysis and the use of large data sets. For guidance, students can consult Student Technology Support (the IT help desk) and Academic Technology Services, which provides recommended minimum computer specifications."
+    },
+    {
+        "query": "What are the key prohibitions regarding consensual teacher-student relationships at the university?",
+        "answer": "The policy prohibits consensual sexual relationships in four key situations: 1) between faculty members and any student/trainee, 2) between graduate/professional students and undergraduates when the graduate student has supervisory or academic responsibility, 3) between department chairs and students in their department, and 4) between graduate advisors, program directors, or others with supervisory academic responsibility and their students. If such a relationship exists, previously existed, or develops, the teacher must decline participation in any evaluative or supervisory academic activity concerning that student."
+    },
+    {
+        "query": "What are the consequences for violating the consensual teacher-student relationship policy?",
+        "answer": "When prohibited relationships are reported, administrators should investigate and, if reports are accurate, initiate appropriate disciplinary action or remedial measures against the teacher involved. An egregious breach of this policy is considered adequate cause for termination under Paragraph 12(c) of the Statement of Principles Governing Faculty Relationships. The policy emphasizes that such relationships risk conflicts of interest, breach of trust, abuse of power, and breach of professional ethics."
+    },
+    {
+        "query": "What does the Computer Science and Informatics PhD Program Handbook outline?",
+        "answer": "The handbook outlines the policies of the Computer Science and Informatics Doctor of Philosophy Program at Emory University."
+    },
+    {
+        "query": "If the handbook requirements change during a student's program, which version should they follow?",
+        "answer": "Students can choose to satisfy either the requirements of the version that was in effect when they matriculated or the current version of the handbook."
+    },
+    {
+        "query": "Who should students consult if they are unsure about a policy in the handbook?",
+        "answer": "Students should consult with their advisor, the graduate program coordinator (GPC), or the Director of Graduate Studies (DGS) if they are unsure about a policy."
+    },
+    {
+        "query": "What are the core values and commitments of the James T. Laney School of Graduate Studies?",
+        "answer": "The School is committed to graduate education that provides students with deep and broad expertise in their chosen fields, creativity to cross discipline boundaries, courage to challenge convention, and confidence to ask unexpected questions and articulate bold new perspectives."
+    },
+    {
+        "query": "Which departments are involved in managing the Computer Science and Informatics (CSI) Graduate program and who are the key program administrators?",
+        "answer": "The CSI Graduate program is managed by three departments: Computer Science (CS), Biomedical Informatics (BMI), and Biostatistics and Bioinformatics (BIOS). The key program administrators include the Director of Graduate Studies (DGS), Graduate Program Coordinator (GPC), and Co-Directors of Graduate Studies (co-DGSes) for CS, BMI and BIOS."
+    },
+    {
+        "query": "What is unique about the Computer Science and Informatics Ph.D. program at Emory and which departments are involved?",
+        "answer": "The CSI Ph.D. program is a joint program between the departments of Computer Science, Biomedical Informatics, and Biostatistics and Bioinformatics. It is distinguished by its interdisciplinary nature, featuring collaborations with Emory's computational and discrete mathematics faculty, departments of physics, biology, psychology, chemistry, and the schools of medicine, nursing, and public health."
+    },
+    {
+        "query": "What is the typical timeline and structure of the CSI Ph.D. program?",
+        "answer": "The program typically takes 5-6 years to complete. Academic coursework is expected to be completed within the first two years, followed by a qualifying examination in the student's chosen concentration and a thesis proposal. Students typically begin working closely with an advisor on original research by year 3 or earlier, culminating in a thesis defense."
+    },
+    {
+        "query": "What are the three components of the Ethics Requirements for Computer Science and Informatics Ph.D. students?",
+        "answer": "The three components are: 1) JPE 600, a one-day graduate school workshop taken in the first year before fall semester, 2) CS 590, a teaching seminar on computing-related pedagogy and scholarly misconduct taken in first year or early second year, and 3) JPE 610, requiring completion of minimum 4 sessions before graduation."
+    },
+    {
+        "query": "When must CS 590 be completed by PhD students?",
+        "answer": "CS 590 must be completed in the Fall or Spring of the first year of study, or in exceptional circumstances, it can be completed in the fall of the second year."
+    },
+    {
+        "query": "What are the teaching requirements for CSI PhD students?",
+        "answer": "CSI PhD students must complete three TATT 605 courses (serving as a TA for three courses). Alternatively, each TATT 610 instructorship can replace two TATT 605s. Students must also complete the summer TATTO (TATT 600) course through LGS prior to serving as a TA or Instructor. These requirements are typically completed during the first two years of the program."
+    },
+    {
+        "query": "What must departing graduate students provide regarding their teaching responsibilities?",
+        "answer": "Departing graduate students must provide copies of their grade books (or spreadsheets) for courses they taught in the preceding year. An electronic grade book must be sent to the Program Administrator before the department will sign off on their degree application. If there are any outstanding or incomplete grades, they must leave a statement to the program coordinator explaining what remains for the student to complete to change the grade."
+    },
+    {
+        "query": "What are the core credit hour requirements for the CSI PhD program before candidacy?",
+        "answer": "Students must complete 36 total credit hours before candidacy, consisting of 18 credit hours of coursework in advanced standing (with no more than 3 hours of directed studies) and an additional 18 credit hours of research and coursework."
+    },
+    {
+        "query": "How is the CSI PhD course curriculum structured in terms of required vs. elective courses?",
+        "answer": "Students must take three required courses and at least four elective courses. The specific required and elective courses vary depending on whether the student is in the CS (Computer Science) or BMI (Biomedical Informatics) PhD track."
+    },
+    {
+        "query": "What are the three required courses for the Computer Science and Informatics Ph.D. Program's CS Track?",
+        "answer": "The three required courses for the CS Track are: CS 526 Algorithms, CS 534 Machine Learning, and CS 551 Systems Programming."
+    },
+    {
+        "query": "Is CS 534 Machine Learning a required course for the CS Track of the Computer Science and Informatics Ph.D. Program?",
+        "answer": "Yes, CS 534 Machine Learning is one of the three required courses for the CS Track of the Computer Science and Informatics Ph.D. Program."
+    },
+    {
+        "query": "What are the three required courses for the BMI track in the Computer Science and Informatics Ph.D. Program?",
+        "answer": "The three required courses are: 1) BMI 500 Introduction to Ethical Data Science and Informatics, 2) BMI 510 Biostatistics for Machine Learning, and 3) BMI 534 or CS 534 Machine Learning."
+    },
+    {
+        "query": "Can students take either BMI 534 or CS 534 to fulfill the Machine Learning requirement in the BMI track?",
+        "answer": "Yes, students can take either BMI 534 or CS 534 to fulfill the Machine Learning course requirement in the BMI track."
+    },
+    {
+        "query": "What are the grade requirements for PhD Required and Elective courses in the Computer Science and Informatics Ph.D. Program?",
+        "answer": "PhD Required and Elective courses must be completed with a grade of B or higher and maintain an overall GPA of 3.3 or higher, calculated based on the Required and Elective courses only."
+    },
+    {
+        "query": "How many elective courses are required for the CS or BMI Track in the Computer Science and Informatics Ph.D. Program, and what departments can they come from?",
+        "answer": "Students must complete four or more (4+) elective courses totaling twelve or more (12+) credit hours. These courses can be from CS, BMI, BIOS, or MATH departments. Pre-approved electives are listed in Appendix A: CSI Course Listing, and other courses may be taken with prior DGS approval."
+    },
+    {
+        "query": "What is the expected timeframe for completing required coursework in the Computer Science and Informatics (CSI) Ph.D. program?",
+        "answer": "Students are expected to complete all required CSI coursework within their first two years."
+    },
+    {
+        "query": "When must CSI Ph.D. students finish their required courses?",
+        "answer": "All required CSI coursework must be completed within the first two years of the program."
+    },
+    {
+        "query": "What are the rotation requirements for the Computer Science and Informatics Ph.D. Program, including timing and credit hours?",
+        "answer": "PhD students must complete two rotation projects (CS598R) as part of the candidacy qualifying process. The first rotation must be completed before the start of Year 2, and the second rotation before the start of Year 3. Each rotation project is a three-credit hour, semester-long activity with pre-defined deliverables and a final evaluation. Students can earn 3 credit hours for each rotation project through CS598R."
+    },
+    {
+        "query": "What are the key requirements and deliverables for completing a rotation project?",
+        "answer": "Students must: 1) Register for CS598R under a faculty advisor's supervision, 2) Submit a project proposal with well-defined outcomes and deliverables before starting, 3) Submit a final report upon completion (an accepted/published paper may serve as the final report), 4) Present their work at a department seminar. If the rotation advisor is not a CSI program faculty member, DGS approval and a co-advisor from the program are required. For projects involving software development, deliverables must be clearly specified at the start."
+    },
+    {
+        "query": "What are the four main objectives assessed in the CSI PhD qualifying examination process?",
+        "answer": "The CSI PhD qualifying process assesses four key objectives: 1) Expert area knowledge - demonstrating deep knowledge in the intended specialization area, 2) Critical analysis skills - showing ability to perform critical scholarship review, 3) Research readiness - proving ability to develop and conduct research, including research methods, and 4) Technical communication - demonstrating effective verbal and written communication abilities."
+    },
+    {
+        "query": "What is the primary purpose of the qualifying examinations in the PhD program?",
+        "answer": "The primary purpose of the qualifying process is to assess a student's readiness to undertake and complete a formidable and successful dissertation. It evaluates whether the student has developed the necessary proficiencies across multiple areas required for doctoral research."
+    },
+    {
+        "query": "What are the requirements for the qualifying examination committee composition?",
+        "answer": "The qualifying committee must have at least three Emory faculty members with academic appointments, including at least two CSI faculty members. It must be chaired by a CSI faculty member who cannot be the student's (intended) advisor."
+    },
+    {
+        "query": "When must the qualifying committee be approved and by whom?",
+        "answer": "The qualifying committee must be approved by a CSI DGS or co-DGS by December 1 of the student's third year."
+    },
+    {
+        "query": "What are the three components of the qualifying examination process?",
+        "answer": "The qualifying process has three components: 1) a technical report, 2) written feedback from and response to the committee, and 3) an oral examination."
+    },
+    {
+        "query": "What are the four objective areas that students must demonstrate proficiency in during the qualifying examination?",
+        "answer": "Students must demonstrate proficiency in four objective areas: 1) expert area knowledge, 2) critical analysis skills, 3) research readiness, and 4) technical communication."
+    },
+    {
+        "query": "What are the key requirements for a PhD qualifying examination technical report?",
+        "answer": "The technical report must: 1) demonstrate research readiness and technical communication skills, 2) be of publication quality (though not necessarily published), 3) contain original research or compelling synthesis of state of the art, 4) be submitted to the committee at least 1 month before oral examination, and 5) show substantial contribution from the student. Valid formats include publishable papers, substantial class project write-ups, or critical surveys with experimental analysis."
+    },
+    {
+        "query": "What are the authorship expectations and requirements for the qualifying examination technical report?",
+        "answer": "While the report may have multiple authors, the student must make a substantial contribution to both authorship and scholarship. The program recommends and expects the student to be first author, requiring written approval from the committee chair if this is not the case. For multi-authored reports, the advisor or committee designee must provide a written description of the student's contributions with the submission."
+    },
+    {
+        "query": "What are the time constraints for the written feedback and response process during qualifying examinations?",
+        "answer": "The committee must provide written feedback within 2 weeks of receiving the technical report. The student then has 1 week to provide written answers to the committee's questions, and these answers must be submitted at least 1 week before the oral examination."
+    },
+    {
+        "query": "What are the key rules regarding the student's written response during the qualifying examination process?",
+        "answer": "The student must write the response completely independently, without any assistance from others, including their advisor, faculty members, other students, or co-authors. The response should demonstrate the student's expert knowledge and communication skills, addressing specific points requested in the committee's written feedback."
+    },
+    {
+        "query": "What is the scope of the committee's written feedback and its relationship to the oral examination?",
+        "answer": "The committee's written feedback should explicitly address the four objectives of the qualifying process, covering the technical report, broader research areas, and related methodologies. While the feedback may broaden the scope of the technical report and define the scope of the oral examination, it does not limit the extent of the oral exam - questions during the oral exam are not restricted only to those posed in the written response."
+    },
+    {
+        "query": "What is the typical duration and structure of the qualifying oral examination?",
+        "answer": "The oral examination typically lasts 60-90 minutes total, including a student presentation of approximately 30 minutes (or as advised by the committee chair). The student's presentation should incorporate committee feedback and responses where appropriate, but doesn't need to cover the entire technical report or written response in full detail."
+    },
+    {
+        "query": "Is the oral examination limited only to discussing the written feedback and responses?",
+        "answer": "No, while the written feedback helps define the scope of the oral examination and broadens the technical report's scope, it does not limit the extent of questioning during the oral exam. The examination can cover topics beyond what was addressed in the written feedback and responses."
+    },
+    {
+        "query": "What are the possible outcomes of the qualifying examination and what determines a passing result?",
+        "answer": "The possible outcomes are 'Pass', 'Conditional Pass', or 'Fail'. To achieve a Pass, the student must pass all four objective areas. For a Conditional Pass, the student must either pass or conditionally pass each objective area. In cases of Conditional Pass, the committee must provide specific criteria and timelines."
+    },
+    {
+        "query": "How many attempts are students allowed for the qualifying examination and does this affect the time limit?",
+        "answer": "Students are allowed two attempts to pass the qualifying exam within the allowed time limit. Important to note that having multiple attempts does not extend the original time limit for completing the qualification process."
+    },
+    {
+        "query": "What is the deadline for completing qualifying examinations and candidacy requirements?",
+        "answer": "Students must complete the qualifying process and all candidacy requirements by September 1 of their fourth year."
+    },
+    {
+        "query": "By which year and date must PhD students finish their qualifying process?",
+        "answer": "Students must complete the qualifying process by September 1 of their fourth year."
+    },
+    {
+        "query": "What are the key principles guiding admission into PhD candidacy?",
+        "answer": "PhD candidacy admission is guided by the principle that a student should demonstrate proficiency in multiple areas and mastery in at least one area. Breadth proficiency is evaluated through course performance and rotation projects, while depth is assessed through the qualifying exam and research publications."
+    },
+    {
+        "query": "How is a PhD student's breadth and depth of knowledge evaluated for candidacy?",
+        "answer": "Breadth of knowledge is evaluated through the student's performance in completed courses and rotation projects. Depth of knowledge in a specific area is assessed through the qualifying exam and other measures like research publications."
+    },
+    {
+        "query": "What are the requirements for a CSI PhD student to be eligible for candidacy?",
+        "answer": "A CSI PhD student must complete several requirements for candidacy: 1) Complete ethics requirements (JPE 600, JPE 610, CS 590), 2) Complete teaching requirements (TATT 600, and TATT 605 or TATT 610), 3) Complete all core and elective coursework, 4) Complete two CS598R rotation projects, and 5) Pass qualifying examinations. Additionally, LGS requires resolving any Incomplete or In Progress grades, maintaining good standing with a minimum 2.70 GPA, and earning at least 54 credit hours at the 500 level or above."
+    },
+    {
+        "query": "What are the specific LGS (Laney Graduate School) requirements for PhD candidacy?",
+        "answer": "The Laney Graduate School (LGS) has three specific requirements for PhD candidacy: 1) All Incomplete (I) or In Progress (IP) grades must be resolved, 2) The student must be in good standing with a minimum cumulative 2.70 GPA, and 3) The student must have earned at least 54 credit hours at the 500 level or above."
+    },
+    {
+        "query": "What is the deadline for reaching candidacy and what are the consequences of missing it?",
+        "answer": "Students must reach candidacy by September 15 of their fourth year. Missing this deadline results in academic probation, ineligibility for PDS funds, and possible loss of financial support. These sanctions are lifted once the student enters candidacy."
+    },
+    {
+        "query": "What are two important rules regarding the timing of candidacy in relation to graduation and master's degrees?",
+        "answer": "1) Students cannot apply for Candidacy and graduate in the same semester. 2) Students must be in candidacy before they can submit an application for a Master's degree based on candidacy."
+    },
+    {
+        "query": "When must PhD students have their dissertation committee members approved?",
+        "answer": "PhD students must have their dissertation committee members approved by March 15 of their fourth academic year."
+    },
+    {
+        "query": "What is the deadline for dissertation committee approval?",
+        "answer": "The deadline for dissertation committee approval is March 15 of the fourth academic year."
+    },
+    {
+        "query": "What are the components and timing requirements of a dissertation prospectus?",
+        "answer": "A dissertation prospectus has both written and oral components. The written proposal with a comprehensive bibliography must be submitted to the committee at least 2 weeks before the oral presentation. The oral component consists of a 30-minute presentation followed by a Q&A session with the committee, with the entire exam lasting one hour."
+    },
+    {
+        "query": "What are the possible outcomes of a dissertation prospectus examination?",
+        "answer": "There are three possible outcomes for a dissertation prospectus examination: pass, conditional pass, or fail. With a conditional pass, the committee will specify requirements the student must complete to remove the contingency. If a student fails, they are allowed one more attempt to retake the exam."
+    },
+    {
+        "query": "What are the requirements for the dissertation committee composition?",
+        "answer": "The dissertation committee must include: 1) the faculty advisor who is a program member, 2) two additional faculty members from the program, and 3) one or more members outside of the program with Ph.D. degrees."
+    },
+    {
+        "query": "What is the timing requirement between the dissertation prospectus and defense?",
+        "answer": "A student must complete their dissertation prospectus at least one semester before their dissertation defense and manuscript submission."
+    },
+    {
+        "query": "What are the main components of the dissertation requirement?",
+        "answer": "Students must complete two main components: 1) write a dissertation describing original research in their chosen area, and 2) deliver a public presentation of the dissertation before their dissertation committee."
+    },
+    {
+        "query": "What are the seminar attendance requirements for PhD students in Computer Science?",
+        "answer": "PhD students must enroll and maintain satisfactory attendance in the Computer Science Seminar (CS700) during each semester they are in residence. Additionally, they must present at least one thesis-related seminar before graduating."
+    },
+    {
+        "query": "How many thesis-related seminars must a PhD student present before graduation?",
+        "answer": "Each PhD student is required to present at least one thesis-related seminar prior to graduation."
+    },
+    {
+        "query": "When must a PhD student give their CS700 seminar presentation?",
+        "answer": "A PhD student must give their CS700 seminar presentation while they are in candidacy and before their dissertation defense."
+    },
+    {
+        "query": "What is the topic requirement for a student's CS700 seminar presentation?",
+        "answer": "The student must present on their thesis research."
+    },
+    {
+        "query": "What are the annual progress report requirements for PhD students?",
+        "answer": "PhD students must submit a yearly progress report to the Director of Graduate Studies by the end of May. The report must be reviewed and signed by either the student's advisor or the DGS (if the student doesn't have an advisor yet). The report should cover activities from June 1 of the previous year to May 31 of the current year."
+    },
+    {
+        "query": "Who needs to sign a PhD student's annual progress report?",
+        "answer": "The progress report must be reviewed and signed by the student's PhD advisor. If the student has not yet selected an advisor, then the Director of Graduate Studies (DGS) must review and sign the report instead."
+    },
+    {
+        "query": "What is the purpose of probation and dismissal policies in the PhD program?",
+        "answer": "Probation and dismissal policies exist to ensure students meet important milestones necessary for PhD success. These actions are not meant to be punitive, but rather to maintain academic standards. The program recognizes that students may face challenges and encourages struggling students to seek support through various available resources."
+    },
+    {
+        "query": "What resources are available for PhD students who are struggling to meet program milestones?",
+        "answer": "Students can seek support from multiple sources including: their advisor(s), trusted faculty members, the Director of Graduate Studies (DGS) or co-DGS, the Assistant Dean of Student Affairs in Laney Graduate School (LGS), and Student Health Services. Additional resources can be found in the Support section of the CSI Graduate Program Handbook."
+    },
+    {
+        "query": "What are the main academic GPA-related conditions that would place a student on probation according to LGS policy?",
+        "answer": "According to LGS policy, there are two GPA-related conditions that would place a student on probation: 1) receiving less than a 2.7 GPA in a term, or 2) having less than a 2.7 cumulative GPA."
+    },
+    {
+        "query": "What are the coursework requirements and milestones that CSI Doctoral students must meet by the end of their second academic year to avoid probation?",
+        "answer": "CSI Doctoral students must complete seven courses (three required and four elective, totaling 21 credits) with grades of B or better and maintain a 3.3 GPA or better across these courses by the end of their second academic year. The specific milestones are: 1) At least one course (3 credits) with B or better by end of first fall term, 2) At least three courses (9 credits) with B or better by end of first spring term, 3) At least five courses (15 credits) with B or better by end of second fall term, and 4) All seven courses completed with B or better and 3.3 GPA by end of second spring term."
+    },
+    {
+        "query": "What must a student do after being placed on probation?",
+        "answer": "After being placed on probation, a student must submit a letter to the DGS within two weeks of receiving their probation notification. This letter must present a concrete, actionable plan for leaving probation and resuming satisfactory progress."
+    },
+    {
+        "query": "What are the conditions that would lead to a recommendation for dismissal from the PhD program?",
+        "answer": "A student will be recommended for dismissal if they: 1) Are placed on probation in two consecutive terms, 2) Meet probation criteria 1, 3, or 4 in two non-consecutive terms without taking program coursework in between, 3) Are placed on probation in any three terms, 4) Receive an F or U in 597R, 598R, 599R, or 799R in any two terms, 5) Receive an F or U in 599R or 799R after making a formal PhD advisor commitment, or 6) Fail their qualifying exam twice."
+    },
+    {
+        "query": "If a student fails their research course (599R/799R) after formally committing to a PhD advisor, what happens?",
+        "answer": "If a student receives an F or U grade in 599R or 799R after completing a formal, mutual PhD advisor commitment, they will be recommended for dismissal from the program."
+    },
+    {
+        "query": "What is the process for appealing a dismissal recommendation in the PhD program?",
+        "answer": "To appeal a dismissal recommendation, students can: 1) Submit a letter to the DGS explaining extenuating circumstances and providing an actionable plan to leave probation 2) Request their advisor submit a support letter, including financial support plans if applicable 3) Submit these materials within two weeks of probation notification. The Graduate Committee reviews appeals, excluding faculty who issued probationary grades. If accepted, dismissal is prevented; if denied, the student faces dismissal and loss of funding. Students may request up to two one-term extensions."
+    },
+    {
+        "query": "What is the time limit for submitting a dismissal appeal and what documents are required?",
+        "answer": "Students have two weeks after receiving probation notification to submit their appeal documents. Required materials include: 1) A letter from the student to the DGS detailing extenuating circumstances and providing a concrete plan for leaving probation 2) Optionally, a letter of support from their advisor, which should include plans for ongoing financial support if the advisor is supporting the student."
+    },
+    {
+        "query": "What are the typical funding sources for full-time PhD students at Emory, and how long does the initial Graduate School Fellowship typically last?",
+        "answer": "Full-time PhD students are typically supported by either a Graduate School Fellowship (GSF) or a faculty research assistantship (RA). For those on GSF, LGS typically provides full support (including tuition, stipend, and health insurance) for the first 21 months (from Fall of year one through spring of year two, including summer). After this period, students are expected to join a research group and receive support through an RA or other external funding."
+    },
+    {
+        "query": "Are there different requirements for PhD students based on their funding source?",
+        "answer": "No, all PhD students must complete the same requirements, including TATTO and research rotations, regardless of their funding source (whether they have initial Laney GSF, Day1 funding, or are self-funded)."
+    },
+    {
+        "query": "What are the key responsibilities of all students in the CSI program regardless of their funding support?",
+        "answer": "All students must participate in teaching, research and professional development activities prescribed by the program. This includes completing TATTO, JPE, coursework and rotation requirements during the first two years. Students may be assigned duties like lab assistance, teaching, grading, and for those with interdisciplinary interests, may work on research projects across different schools like Medicine and Public Health."
+    },
+    {
+        "query": "Who determines the responsibilities for Research Assistants (RAs) versus non-RAs in the CSI program?",
+        "answer": "For non-RAs, the CSI program and relevant departments assign student responsibilities. For RAs, their faculty advisors determine their research and other scholarly duties."
+    },
+    {
+        "query": "What are the conditions for maintaining RA or LGS financial support at Emory?",
+        "answer": "To maintain RA or LGS support, students must: 1) be registered as full-time students, 2) not accept any other remuneration for work inside or outside the university if receiving full support from Emory sources, 3) undergo annual performance evaluation by the Graduate Committee and faculty advisor, 4) make satisfactory progress toward their degree, 5) maintain the stated minimum GPA, 6) earn minimum required credits each semester, 7) advance to candidacy in a timely manner, and 8) perform satisfactorily in assigned teaching or work duties."
+    },
+    {
+        "query": "Under what circumstances can fellowships and assistantships be terminated early?",
+        "answer": "Fellowships and assistantships may be reduced, suspended, or terminated early when student performance is unsatisfactory. This includes: failing to maintain the minimum GPA, not earning minimum required credits toward degree each semester, failing to advance to candidacy in a timely manner, and/or performing unsatisfactorily in assigned teaching or work duties."
+    },
+    {
+        "query": "What financial support is available to PhD students through the LGS Professional Development Support (PDS) program?",
+        "answer": "Through the PDS program, PhD students can apply for up to $2,500 in funding across three categories: training, research, and conferences. Additional funding beyond the $2,500 may be available for training and research through a competitive review process. However, funds are not guaranteed and require application and review."
+    },
+    {
+        "query": "What are the three categories of funding available through the LGS Professional Development Support program?",
+        "answer": "The three categories of funding available through the PDS program are training, research, and conferences."
+    },
+    {
+        "query": "What are the consequences for graduate students who demonstrate unprofessional conduct in their teaching duties?",
+        "answer": "Graduate students who demonstrate unprofessional conduct can face two main consequences: 1) They may have their stipend fully or partially rescinded, and 2) in serious cases, they may be reported to the Laney Graduate School for a conduct code violation."
+    },
+    {
+        "query": "How does the department handle complaints about graduate student instructors?",
+        "answer": "When complaints are made about graduate instructors being late, rude, or unprepared, the Director of Undergraduate Studies and the Chair will investigate these reports. The department takes these complaints seriously as they view graduate instructors as professional representatives of the University."
+    },
+    {
+        "query": "What is the purpose of the Computer Science M.S. Program?",
+        "answer": "The Master of Science program in Computer Science (MS CS) prepares students for professional jobs in computer industry or further graduate study."
+    },
+    {
+        "query": "How is the MS CS program administered in relation to the CSI PhD program?",
+        "answer": "The MS CS is administered independently of the CSI PhD program and is described in a separate handbook."
+    },
+    {
+        "query": "Can PhD students in the CSI program earn a master's degree, and if so, how?",
+        "answer": "Yes, CSI PhD students can obtain a master's degree in computer science by Advancing to PhD Candidacy. The concentration of the MS CS degree will be determined by the coursework and requirements the student has completed."
+    },
+    {
+        "query": "How many master's degrees can a PhD student obtain through Candidacy?",
+        "answer": "Students are limited to obtaining only one M.S. degree through Candidacy."
+    },
+    {
+        "query": "What are the requirements for PhD students to obtain an MS degree if they leave the program prior to Candidacy?",
+        "answer": "PhD students leaving before Candidacy may petition for an MS in CS by completing: 1) 3 core courses, 2) 4 elective courses, 3) one of the following: 9 credit hours of research, OR 6 credit hours of project plus one additional course, OR 3 additional courses, and 4) 1 credit hour of MS Practicum. The specific concentration received will depend on the completed coursework."
+    },
+    {
+        "query": "How common is it for PhD students who leave the program to be awarded an MS degree?",
+        "answer": "MS degrees for students leaving the PhD program are only awarded in the most exceptional of circumstances, indicating this is not a common occurrence."
+    },
+    {
+        "query": "How often are PhD students evaluated and what are the possible outcomes of these evaluations?",
+        "answer": "PhD students are reviewed at the end of each semester and receive a written evaluation annually. The evaluation can have two possible outcomes: (1) Satisfactory progress or (2) Unsatisfactory progress. The evaluation is based on overall performance including coursework, exams, research, and work duties like teaching."
+    },
+    {
+        "query": "What are the consequences of receiving an unsatisfactory progress evaluation?",
+        "answer": "An unsatisfactory progress evaluation can result in academic probation, requiring the student to correct the identified problems over the following semester. If a student fails to make satisfactory progress while on probation, they may be terminated from the program."
+    },
+    {
+        "query": "What is the first step a student should take if they have a grievance in the CSI graduate program?",
+        "answer": "Students should first report the grievance to the Director of Graduate Studies (DGS) by writing a letter that describes the grievance and relevant details."
+    },
+    {
+        "query": "What happens if the DGS cannot resolve a student's grievance through initial conversations?",
+        "answer": "If initial conversations are unsuccessful, the Director will appoint a committee of three program faculty members or use an existing standing committee to review the grievance and propose an appropriate response."
+    },
+    {
+        "query": "What is the process if a student has a grievance specifically with the Director?",
+        "answer": "If the grievance is with the Director, the student should submit the grievance directly to the Senior Associate Dean of the Laney Graduate School instead of following the standard process."
+    },
+    {
+        "query": "What is the purpose of the LGS Parental Accommodation Policy?",
+        "answer": "The LGS Parental Accommodation Policy is designed to provide PhD students with substantial parenting responsibility a minimal level of accommodation during the transition of parenthood, whether due to childbirth, care of newborn, or a newly adopted child."
+    },
+    {
+        "query": "Where can students find more information about the Parental Accommodation Policy's eligibility requirements and application procedure?",
+        "answer": "Students can find detailed information about the policy, eligibility requirements, and application procedure at the Emory Graduate School website: https://www.gs.emory.edu/academics/policies-progress/parental-arrangement.html"
+    },
+    {
+        "query": "What is the role of the Office of Accessibility Services (OAS) at Emory?",
+        "answer": "The Office of Accessibility Services (OAS) at Emory ensures equal opportunity for all persons to participate in and benefit from programs and services. As part of the Office of Equity and Inclusion, it assists qualified students, faculty, and staff in obtaining various services, handles matters of equal access and reasonable accommodation, and ensures compliance. OAS is specifically committed to providing campus resource access and opportunities to enable students with disabilities to obtain a quality educational experience."
+    },
+    {
+        "query": "How can students access OAS services at Emory?",
+        "answer": "To access OAS services, qualified students must first register with the Office of Accessibility Services and make a specific request for services. All matters are handled confidentially. Students can find more information on the Emory OAS website at http://accessibility.emory.edu/students/index.html"
+    },
+    {
+        "query": "What resources are available to help graduate students manage stress and wellness at Emory?",
+        "answer": "Students can access support services through two main pages: the Laney Graduate School student support page (http://www.gs.emory.edu/guides/students/support.html) and the LGS/GDBBS support page (https://biomed.emory.edu/resources/students/index.html). These pages provide links to various student support services designed to help students take care of their mental and physical wellbeing during graduate school."
+    },
+    {
+        "query": "Why does the handbook emphasize student support services?",
+        "answer": "The handbook emphasizes student support services because it recognizes that graduate school can be a stressful time that impacts both body and mind. It encourages students to prioritize self-care and take advantage of the available support resources."
+    },
+    {
+        "query": "Where can students find Emory University policies?",
+        "answer": "Students can find a selection of Emory University policies at https://policies.emory.edu/. Additional policies can be found in the LGS Handbook (https://gs.emory.edu/handbook/index.html) and GDBBS Handbook (https://biomed.emory.edu/_includes/documents/handbooks/gdbbs.pdf)."
+    },
+    {
+        "query": "What are some of the key policies covered in the LGS and GDBBS Handbooks?",
+        "answer": "The key policies covered in the LGS and GDBBS Handbooks include: University Policies, Honor Code, Minimum Degree Requirements, Professional Development Funds, Withdrawals and Leaves of Absences, Parental Accommodations and Leaves, and Degree Completion & Graduation."
+    },
+    {
+        "query": "What is the required course (R) for PhD BMI Track students according to the CSI PhD Course Listing for BIOS courses?",
+        "answer": "BIOS 534 (Machine Learning) is the only required course for PhD BMI Track students, worth 3 credits."
+    },
+    {
+        "query": "What do the designations R, E, E*, and O mean in the CSI PhD Course Listing?",
+        "answer": "R = Required, E = Elective, E* = Elective if and only if course is formally taught and evaluated (seminar style or directed study courses may not be used to fulfil elective requirements), O = Other (Does not count as either a Required or as an Elective Course)"
+    },
+    {
+        "query": "How many credits is the BMED 6517 Machine Learning in Biosciences course and what is its status for PhD CS and BMI tracks?",
+        "answer": "BMED 6517 Machine Learning in Biosciences is a 3-credit course that counts as an Elective (E) for both the PhD CS Track and PhD BMI Track."
+    },
+    {
+        "query": "What does E* mean in the course listing and which course has this designation?",
+        "answer": "E* means a course is considered an elective if and only if it is formally taught and evaluated - seminar style or directed study courses may not be used to fulfill elective requirements. In this listing, BMED 8813 (Special Topics in BME) has the E* designation for the BMI Track."
+    },
+    {
+        "query": "What courses are required (R) for PhD BMI Track students?",
+        "answer": "There are 3 required courses for PhD BMI Track students: BMI 500 (Introduction to Ethical Data Science and Informatics), BMI 510 (Biostatistics for Machine Learning), and BMI 534 (Introduction to Machine Learning)."
+    },
+    {
+        "query": "What is the difference between E and E* in the course listing?",
+        "answer": "E stands for Elective courses, while E* indicates courses that can only count as electives if they are formally taught and evaluated. Seminar style or directed study courses marked as E* may not be used to fulfill elective requirements. This applies to BMI 585 (Topics in Biomedical Informatics) for both CS and BMI tracks."
+    },
+    {
+        "query": "Which courses are marked as 'O' (Other) and what does this designation mean?",
+        "answer": "Three courses are marked as 'O' (Other): BMI 520 (Practical Computing for Informatics), BMI 534 (Introduction to Machine Learning), and BMI 562 (Cancer Single Cell Analytics) for the PhD CS Track. The 'O' designation means these courses do not count as either Required or Elective courses for that track."
+    },
+    {
+        "query": "What are the required (R) courses for the PhD CS track?",
+        "answer": "The required courses for the PhD CS track are: CS 526 (Algorithms), CS 534 (Machine Learning), and CS 551 (Systems Programming)."
+    },
+    {
+        "query": "What is the difference between E and E* in the course listing?",
+        "answer": "E stands for Elective courses, while E* indicates courses that are considered elective if and only if they are formally taught and evaluated. Seminar style or directed study courses marked as E* may not be used to fulfill elective requirements."
+    },
+    {
+        "query": "How many credits is each course worth in the CSI PhD program?",
+        "answer": "All courses listed in the handbook are worth 3 credits each."
+    },
+    {
+        "query": "What is the significance of the 'O' designation in the course listing?",
+        "answer": "O stands for Other and indicates that the course does not count as either a Required or as an Elective Course. For example, CS 523 (Data Structure & Algorithms I) is marked as O for the PhD CS track."
+    },
+    {
+        "query": "What is the credit value and course designation for MATH 571 Numerical Optimization in both PhD CS and BMI tracks?",
+        "answer": "MATH 571 Numerical Optimization is a 3-credit course designated as an Elective (E) for both PhD CS and BMI tracks."
+    },
+    {
+        "query": "Which MATH courses related to Analysis are available as electives in the PhD program?",
+        "answer": "There are two Analysis courses available as electives: MATH 511 (Analysis I) and MATH 512 (Analysis II). Both are 3-credit courses and are designated as electives for both PhD CS and BMI tracks."
+    },
+    {
+        "query": "How many Numerical Analysis courses are listed in the PhD course listing, and what are their designations?",
+        "answer": "There are four courses specifically related to Numerical Analysis: MATH 515 (Numerical Analysis I), MATH 516 (Numerical Analysis II), MATH 571 (Numerical Optimization), and MATH 572 (Numerical Partial Differential Equations). All are 3-credit courses and are designated as electives (E) for both PhD CS and BMI tracks."
+    }
+]
