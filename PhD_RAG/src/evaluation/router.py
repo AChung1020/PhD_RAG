@@ -77,7 +77,7 @@ async def evaluate_retrieval(k: int, model: str):
     print(f"MAP@{k}: {map_k:.4f}")
     print(f"Success@{k}: {success_k:.4f}")
 
-    with open(f"{model}_retrieved_dataset_Kat{k}.json", "w") as f:
+    with open(f"Data/results/{model}_retrieved_dataset_Kat{k}.json", "w") as f:
         json.dump(eval_dataset, f, indent=4)
 
 
