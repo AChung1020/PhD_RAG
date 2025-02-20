@@ -14,7 +14,8 @@ from tiktoken import Encoding
 
 from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
 from PhD_RAG.src.database.bge_m3 import BGE_M3_Embeddings
-from PhD_RAG.src.database.bge_m3_large_en_v1_5 import BGE_M3_Large_en_v1_5_Embeddings
+from PhD_RAG.src.database.bge_m3_large_en_v1_5 import \
+    BGE_M3_Large_en_v1_5_Embeddings
 from PhD_RAG.src.database.services import chunk_documents, setup_vectorstore
 
 router: APIRouter = APIRouter()
@@ -22,7 +23,11 @@ logger = getLogger(__name__)
 
 
 @router.put("/create_vectorstore")
-async def create_vectorstore(model_type: Literal["openai-small", "openai-large","bge-m3", "bge_m3_large_en_v1_5"] = "openai-large"):
+async def create_vectorstore(
+    model_type: Literal[
+        "openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"
+    ] = "openai-large"
+):
     """
     Create a vectorstore from documents in the Data/MD_handbooks directory.
 
@@ -100,7 +105,11 @@ async def delete_vectorstore():
 
 @router.post("/query_results")
 async def query_results(
-    query: str, k: int, model_type: Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"] = "openai-large"
+    query: str,
+    k: int,
+    model_type: Literal[
+        "openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"
+    ] = "openai-large",
 ) -> dict[str, list[Document]]:
     """
     Query the vectorstore to retrieve relevant documents.

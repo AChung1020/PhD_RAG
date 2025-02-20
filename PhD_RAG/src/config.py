@@ -38,7 +38,9 @@ MODEL_CONFIG = {
 MILVUS_CONFIG = {
     "uri": os.getenv("MILVUS_URI", "./database/handbooks.db"),
     "collection_name": {
-        "bge_m3_large_en_v1_5": os.getenv("MILVUS_COLLECTION_BGE", "handbook_store_bge"),
+        "bge_m3_large_en_v1_5": os.getenv(
+            "MILVUS_COLLECTION_BGE", "handbook_store_bge"
+        ),
         "bge-m3": os.getenv("MILVUS_COLLECTION_BGE_M3", "handbook_store_bge_m3"),
         "openai-large": os.getenv("MILVUS_COLLECTION", "handbook_store"),
         "openai-small": os.getenv("MILVUS_COLLECTION", "handbook_store_openAI_small"),

@@ -7,11 +7,14 @@ from langchain_text_splitters import MarkdownHeaderTextSplitter
 
 from PhD_RAG.src.config import MILVUS_CONFIG, OPENAI_API_KEY
 from PhD_RAG.src.database.bge_m3 import BGE_M3_Embeddings
-from PhD_RAG.src.database.bge_m3_large_en_v1_5 import BGE_M3_Large_en_v1_5_Embeddings
+from PhD_RAG.src.database.bge_m3_large_en_v1_5 import \
+    BGE_M3_Large_en_v1_5_Embeddings
 
 
 def setup_vectorstore(
-    documents: list[Document], uuids: list[str], model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai"
+    documents: list[Document],
+    uuids: list[str],
+    model_type: Literal["openai", "bge-m3", "bge_m3_large_en_v1_5"] = "openai",
 ) -> Milvus:
     """
     Set up the vectorstore with given documents.

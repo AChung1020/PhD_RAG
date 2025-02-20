@@ -1,9 +1,9 @@
 import json
 from typing import Literal
 
+import tqdm
 from fastapi import APIRouter, FastAPI
 from langchain_core.documents import Document
-import tqdm
 
 from PhD_RAG.src.api.services import generate_qa_pairs
 from PhD_RAG.src.database.router import query_results
@@ -44,7 +44,12 @@ async def generate_qa_dataset():
 
 
 @router.post("/evaluate_retrieval")
-async def evaluate_retrieval(k: int, model_type: Literal["openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"] = "openai-large"):
+async def evaluate_retrieval(
+    k: int,
+    model_type: Literal[
+        "openai-small", "openai-large", "bge-m3", "bge_m3_large_en_v1_5"
+    ] = "openai-large",
+):
     """
     Evaluate the retrieval performance of the model at k
     :param k: number of documents to retrieve
