@@ -2,6 +2,7 @@ import json
 
 from fastapi import APIRouter, FastAPI
 from langchain_core.documents import Document
+import tqdm
 
 from PhD_RAG.src.api.services import generate_qa_pairs
 from PhD_RAG.src.database.router import query_results
@@ -36,23 +37,31 @@ async def generate_qa_dataset():
     # Generate QA pairs with Claude
     qa_pairs: list[dict] = await generate_qa_pairs(chunked_docs)
 
-    with open("new_claude_qa_pairs.json", "w") as f:
+    with open("Data/qa/new_claude_qa_pairs.json", "w") as f:
         json.dump(qa_pairs, f, indent=4)
     print("Q&A dataset saved!")
 
 
 @router.post("/evaluate_retrieval")
-async def evaluate_retrieval(k: int):
+async def evaluate_retrieval(k: int, model: str):
+    """
+    Evaluate the retrieval performance of the model at k
+    :param k: number of documents to retrieve
+    :param model: bge-m3, openai-small, openai-large
+
+    :return:
+    """
     eval_dataset = []
-    with open("new_claude_qa_pairs.json", "r") as f:
+    with open("Data/qa/new_claude_qa_pairs.json", "r") as f:
         qa_pairs = json.load(f)
 
     # qa_pairs = qa_pairs[:5]
-    for qa in qa_pairs:
+    from tqdm import tqdm
+    for qa in tqdm(qa_pairs, desc="Evaluating retrieval"):
         query = qa["query"]
         pos_chunk = qa["pos"]
 
-        response = await query_results(query, k, "bge-m3")
+        response = await query_results(query, k, model)
         retrieved_docs = [doc.page_content for doc in response["docs"]]
 
         eval_dataset.append(
@@ -69,7 +78,7 @@ async def evaluate_retrieval(k: int):
     print(f"MAP@{k}: {map_k:.4f}")
     print(f"Success@{k}: {success_k:.4f}")
 
-    with open("bge_retrieved_dataset.json", "w") as f:
+    with open(f"{model}_retrieved_dataset_Kat{k}.json", "w") as f:
         json.dump(eval_dataset, f, indent=4)
 
 
