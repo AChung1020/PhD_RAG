@@ -56,7 +56,6 @@ async def evaluate_retrieval(k: int, model: str):
         qa_pairs = json.load(f)
 
     # qa_pairs = qa_pairs[:5]
-    from tqdm import tqdm
     for qa in tqdm(qa_pairs, desc="Evaluating retrieval"):
         query = qa["query"]
         pos_chunk = qa["pos"]
